@@ -1,0 +1,811 @@
+@import '../abstract/colors';
+@import '../abstract//fonts';
+
+@media only screen and (min-width: 1280px){ 
+    .patient-detail-body{
+        width: 100%;
+        height: 100%;
+        .patient-body-row{
+            width:98%;
+            margin-left: 1%;
+            display: flex;
+            margin-top: 0.5rem;
+            flex-direction: row;
+            .patient-block-one{
+                width: 25%;
+                padding: 0.5rem;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                label{
+                    color:$text-primary;
+                    font-family: Futura Medium;
+                }
+                .patient-addr-label{
+                    color: $text-secondary-light;
+                    font-size:0.8rem;
+                }
+                .patient-name-label{
+                    color:$text-secondary;
+                    font-size: 1.2rem;
+                    span{
+                        color:$text-secondary-light;
+                        font-size: 1rem;
+                    }
+                }
+                .detail-block-row{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    .detail-col-one{
+                        width: 50%;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                        .patient-name-label1{
+                            color:$text-secondary;
+                            font-size: 1.2rem;
+                            width: 50%;
+                            font-size: 0.8rem;
+                        }
+                        .patient-name-label2{
+                            color:$text-secondary-light;
+                            font-size: 1rem;
+                            width: 50%;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+                .second-block-align{
+                    text-align: right;
+                    button{
+                        padding: 5px 10px;
+                        background-color: $text-primary;
+                        color: white;
+                        border: none;
+                        border-radius: 3px;
+                        margin-bottom: 5px;
+                        margin-right: 5px;
+                    }
+                }
+                .second-block-box{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    margin-bottom: 2%;
+                    width: 98%;
+                    margin-left: 1%;
+                    .background-green-area{
+                        width: 100%;
+                        background-color: #E0E8C6;
+                        padding:0.5rem;
+                        p{
+                            font-family: futura-pt-demi;
+                            color:$text-dark-color;
+                        }
+                    }
+                    .second-block-head{
+                        color:$text-red-color;
+                        font-family: Futura Medium;
+                        width: 96%;
+                        margin-left: 2%;
+                    }
+                    p{
+                        width: 96%;
+                        margin-left: 2%;
+                        color:$text-secondary-light;
+                        font-size: 0.8rem;
+                        margin-top: 0.5rem;
+                        font-family: Futura Book font;
+                    }
+                }
+            }
+            .patient-block-two{
+                display: grid;
+                width: 74%;
+                height: 100%;
+                margin-left: 1%;
+                .patient-first-row{
+                    display: flex;
+                    width:100%;
+                    height:98%;
+                    .patient-sub-row{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width: 49%;   
+                        padding: 0.5rem;
+                        label{
+                            color: $text-primary;
+                            font-size: 1.2rem;
+                            font-family: Futura Medium;
+                        }   
+                        .patient-Kccq{
+                            width:100%;
+                            img{
+                                margin-top: 1rem;
+                            }
+                            h5{
+                                font-family: futura-pt-demi;
+                            }
+                            p{
+                                font-family: Futura Book font;
+                                color:#9F9F9F;
+                                font-size: 15px;
+                            }
+                        }             
+                    }
+                    .patient-sub-row1{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width:50%;
+                        margin-left: 1%;  
+                        height: 100%;
+                        padding: 5px;   
+                        label{
+                            color: $text-primary;
+                            font-family: Futura Medium;
+                            font-size: 1.2rem;
+                        }  
+                        .second-block-align{
+                            text-align: right;
+                            margin-top: -5%;
+                            label{
+                                font-size: 0.8rem;
+                                color:$text-secondary-light;
+                            }
+                        } 
+                        .body-detail-all{
+                            width:100%;
+                            display: flex;
+                            .col-md-3{
+                                img{  
+                                    width:100%;
+                                    margin-top: 22%;                                  
+                                }
+                            }
+                            .col-md-9{
+                                .row{
+                                    width: 100%;
+                                    display: flex;
+                                    margin-top: 4%;
+                                    .col-xs-6{
+                                        width: 50%;
+                                        div{
+                                            display: flex;
+                                            margin-top: 25px;
+                                            label{
+                                                font-size: 0.9rem;
+                                                color:$text-secondary-light;
+                                                margin-left: 0.7rem;
+                                                span{
+                                                    color:$text-secondary-light;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }          
+                    }
+                }
+                .patient-first-row1{
+                    display: flex;
+                    width:100%;
+                    margin-top: 1;
+                    height:99%;
+                    .patient-sub-row{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width: 55%;   
+                        padding: 0.5rem;
+                        label{
+                            color: $text-primary;
+                            font-size: 1.2rem;
+                            font-family: Futura Medium;
+                        }                
+                    }
+                    .patient-sub-row1{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width:44%;
+                        margin-left: 1%;  
+                        padding:10px;
+                        label{
+                            font-family: Futura Medium;
+                            color:$text-primary;
+                        }                 
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1279px){
+    .patient-detail-body{
+        width: 100%;
+        height: 100%;
+        .patient-body-row{
+            width:98%;
+            margin-left: 1%;
+            display: flex;
+            margin-top: 0.5rem;
+            flex-direction: row;
+            .patient-block-one{
+                width: 25%;
+                padding: 0.5rem;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                label{
+                    color:$text-primary;
+                    font-family: Futura Medium;
+                }
+                .patient-addr-label{
+                    color: $text-secondary-light;
+                    font-size:0.8rem;
+                }
+                .patient-name-label{
+                    color:$text-secondary;
+                    font-size: 1.2rem;
+                    span{
+                        color:$text-secondary-light;
+                        font-size: 1rem;
+                    }
+                }
+                .detail-block-row{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    .detail-col-one{
+                        width: 50%;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                        .patient-name-label1{
+                            color:$text-secondary;
+                            font-size: 1.2rem;
+                            width: 50%;
+                            font-size: 0.8rem;
+                        }
+                        .patient-name-label2{
+                            color:$text-secondary-light;
+                            font-size: 1rem;
+                            width: 50%;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+                .second-block-align{
+                    text-align: right;
+                    button{
+                        padding: 5px 10px;
+                        background-color: $text-primary;
+                        color: white;
+                        border: none;
+                        border-radius: 3px;
+                        margin-bottom: 5px;
+                        margin-right: 5px;
+                    }
+                }
+                .second-block-box{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    margin-bottom: 2%;
+                    width: 98%;
+                    margin-left: 1%;
+                    .background-green-area{
+                        width: 100%;
+                        background-color: #E0E8C6;
+                        padding:0.5rem;
+                        p{
+                            font-family: futura-pt-demi;
+                            color:$text-dark-color;
+                        }
+                    }
+                    .second-block-head{
+                        color:$text-red-color;
+                        font-family: Futura Medium;
+                        width: 96%;
+                        margin-left: 2%;
+                    }
+                    p{
+                        width: 96%;
+                        margin-left: 2%;
+                        color:$text-secondary-light;
+                        font-size: 0.8rem;
+                        margin-top: 0.5rem;
+                        font-family: Futura Book font;
+                    }
+                }
+            }
+            .patient-block-two{
+                display: grid;
+                width: 74%;
+                height: 100%;
+                margin-left: 1%;
+                .patient-first-row{
+                    display: flex;
+                    width:100%;
+                    height:98%;
+                    .patient-sub-row{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width: 49%;   
+                        padding: 0.5rem;
+                        label{
+                            color: $text-primary;
+                            font-size: 1.2rem;
+                            font-family: Futura Medium;
+                        }                
+                    }
+                    .patient-sub-row1{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width:50%;
+                        margin-left: 1%;  
+                        height: 100%;
+                        padding: 5px;   
+                        label{
+                            color: $text-primary;
+                            font-family: Futura Medium;
+                            font-size: 1.2rem;
+                        }  
+                        .second-block-align{
+                            text-align: right;
+                            margin-top: -5%;
+                            label{
+                                font-size: 0.8rem;
+                                color:$text-secondary-light;
+                            }
+                        } 
+                        .body-detail-all{
+                            width:100%;
+                            display: flex;
+                            .col-md-3{
+                                img{  
+                                    width:100%;
+                                    margin-top: 22%;                                  
+                                }
+                            }
+                            .col-md-9{
+                                .row{
+                                    width: 100%;
+                                    display: flex;
+                                    margin-top: 4%;
+                                    .col-xs-6{
+                                        width: 50%;
+                                        div{
+                                            display: flex;
+                                            margin-top: 30px;
+                                            label{
+                                                font-size: 0.9rem;
+                                                color:$text-secondary-light;
+                                                margin-left: 0.7rem;
+                                                span{
+                                                    color:$text-secondary-light;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }          
+                    }
+                }
+                .patient-first-row1{
+                    display: flex;
+                    width:100%;
+                    margin-top: 1;
+                    height:99%;
+                    .patient-sub-row{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width: 55%;   
+                        padding: 0.5rem;
+                        label{
+                            color: $text-primary;
+                            font-size: 1.2rem;
+                            font-family: Futura Medium;
+                        }                
+                    }
+                    .patient-sub-row1{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width:44%;
+                        margin-left: 1%;  
+                        padding:10px;
+                        label{
+                            font-family: Futura Medium;
+                            color:$text-primary;
+                        }                 
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:990px){
+    .patient-detail-body{
+        width: 100%;
+        height: 100%;
+        .patient-body-row{
+            width:98%;
+            margin-left: 1%;
+            display: block;
+            margin-top: 0.5rem;
+            flex-direction: row;
+            .patient-block-one{
+                width: 100%;
+                padding: 0.5rem;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                label{
+                    color:$text-primary;
+                    font-family: Futura Medium;
+                }
+                .patient-addr-label{
+                    color: $text-secondary-light;
+                    font-size:0.8rem;
+                }
+                .patient-name-label{
+                    color:$text-secondary;
+                    font-size: 1.2rem;
+                    span{
+                        color:$text-secondary-light;
+                        font-size: 1rem;
+                    }
+                }
+                .detail-block-row{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    .detail-col-one{
+                        width: 50%;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                        .patient-name-label1{
+                            color:$text-secondary;
+                            font-size: 1.2rem;
+                            width: 50%;
+                            font-size: 0.8rem;
+                        }
+                        .patient-name-label2{
+                            color:$text-secondary-light;
+                            font-size: 1rem;
+                            width: 50%;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+                .second-block-align{
+                    text-align: right;
+                    button{
+                        padding: 5px 10px;
+                        background-color: $text-primary;
+                        color: white;
+                        border: none;
+                        border-radius: 3px;
+                        margin-bottom: 5px;
+                        margin-right: 5px;
+                    }
+                }
+                .second-block-box{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    margin-bottom: 2%;
+                    width: 98%;
+                    margin-left: 1%;
+                    .background-green-area{
+                        width: 100%;
+                        background-color: #E0E8C6;
+                        padding:0.5rem;
+                        p{
+                            font-family: futura-pt-demi;
+                            color:$text-dark-color;
+                        }
+                    }
+                    .second-block-head{
+                        color:$text-red-color;
+                        font-family: Futura Medium;
+                        width: 96%;
+                        margin-left: 2%;
+                    }
+                    p{
+                        width: 96%;
+                        margin-left: 2%;
+                        color:$text-secondary-light;
+                        font-size: 0.8rem;
+                        margin-top: 0.5rem;
+                        font-family: Futura Book font;
+                    }
+                }
+            }
+            .patient-block-two{
+                display: grid;
+                width: 99%;
+                margin-top: 20px;
+                height: 100%;
+                margin-left: 1%;
+                .patient-first-row{
+                    display: flex;
+                    width:100%;
+                    height:98%;
+                    .patient-sub-row{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width: 49%;   
+                        padding: 0.5rem;
+                        label{
+                            color: $text-primary;
+                            font-size: 1.2rem;
+                            font-family: Futura Medium;
+                        }                
+                    }
+                    .patient-sub-row1{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width:50%;
+                        margin-left: 1%;  
+                        height: 100%;
+                        padding: 5px;   
+                        label{
+                            color: $text-primary;
+                            font-family: Futura Medium;
+                            font-size: 1.2rem;
+                        }  
+                        .second-block-align{
+                            text-align: right;
+                            margin-top: -5%;
+                            label{
+                                font-size: 0.8rem;
+                                color:$text-secondary-light;
+                            }
+                        } 
+                        .body-detail-all{
+                            width:100%;
+                            display: flex;
+                            .col-md-3{
+                                img{  
+                                    width:138%;
+                                    margin-top: 33%;                                  
+                                }
+                            }
+                            .col-md-9{
+                                .row{
+                                    width: 100%;
+                                    display: flex;
+                                    margin-top: 4%;
+                                    .col-xs-6{
+                                        width: 50%;
+                                        div{
+                                            display: flex;
+                                            margin-top: 10px;
+                                            label{
+                                                font-size: 0.9rem;
+                                                color:$text-secondary-light;
+                                                margin-left: 0.7rem;
+                                                span{
+                                                    color:$text-secondary-light;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }          
+                    }
+                }
+                .patient-first-row1{
+                    display: flex;
+                    width:100%;
+                    margin-top: 1;
+                    height:99%;
+                    .patient-sub-row{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width: 55%;   
+                        padding: 0.5rem;
+                        label{
+                            color: $text-primary;
+                            font-size: 1.2rem;
+                            font-family: Futura Medium;
+                        }                
+                    }
+                    .patient-sub-row1{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width:44%;
+                        margin-left: 1%;  
+                        padding:10px;
+                        label{
+                            font-family: Futura Medium;
+                            color:$text-primary;
+                        }                 
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 330px) and (max-width: 767px){
+    .patient-detail-body{
+        width: 100%;
+        height: 100%;
+        .patient-body-row{
+            width:98%;
+            margin-left: 1%;
+            display: block;
+            margin-top: 0.5rem;
+            flex-direction: row;
+            .patient-block-one{
+                width: 100%;
+                padding: 0.5rem;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                label{
+                    color:$text-primary;
+                    font-family: Futura Medium;
+                }
+                .patient-addr-label{
+                    color: $text-secondary-light;
+                    font-size:0.8rem;
+                }
+                .patient-name-label{
+                    color:$text-secondary;
+                    font-size: 1.2rem;
+                    span{
+                        color:$text-secondary-light;
+                        font-size: 1rem;
+                    }
+                }
+                .detail-block-row{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    .detail-col-one{
+                        width: 50%;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                        .patient-name-label1{
+                            color:$text-secondary;
+                            font-size: 1.2rem;
+                            width: 50%;
+                            font-size: 0.8rem;
+                        }
+                        .patient-name-label2{
+                            color:$text-secondary-light;
+                            font-size: 1rem;
+                            width: 50%;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+                .second-block-align{
+                    text-align: right;
+                    button{
+                        padding: 5px 10px;
+                        background-color: $text-primary;
+                        color: white;
+                        border: none;
+                        border-radius: 3px;
+                        margin-bottom: 5px;
+                        margin-right: 5px;
+                    }
+                }
+                .second-block-box{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    margin-bottom: 2%;
+                    width: 98%;
+                    margin-left: 1%;
+                    .background-green-area{
+                        width: 100%;
+                        background-color: #E0E8C6;
+                        padding:0.5rem;
+                        p{
+                            font-family: futura-pt-demi;
+                            color:$text-dark-color;
+                        }
+                    }
+                    .second-block-head{
+                        color:$text-red-color;
+                        font-family: Futura Medium;
+                        width: 96%;
+                        margin-left: 2%;
+                    }
+                    p{
+                        width: 96%;
+                        margin-left: 2%;
+                        color:$text-secondary-light;
+                        font-size: 0.8rem;
+                        margin-top: 0.5rem;
+                        font-family: Futura Book font;
+                    }
+                }
+            }
+            .patient-block-two{
+                display: grid;
+                width: 99%;
+                margin-top: 20px;
+                height: 100%;
+                margin-left: 1%;
+                .patient-first-row{
+                    display: block;
+                    width:100%;
+                    height:98%;
+                    .patient-sub-row{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width: 100%;   
+                        padding: 0.5rem;
+                        label{
+                            color: $text-primary;
+                            font-size: 1.2rem;
+                            font-family: Futura Medium;
+                        }                
+                    }
+                    .patient-sub-row1{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width:100%;
+                        margin-left: 1%;  
+                        height: 100%;
+                        padding: 5px;   
+                        label{
+                            color: $text-primary;
+                            font-family: Futura Medium;
+                            font-size: 1.2rem;
+                        }  
+                        .second-block-align{
+                            text-align: right;
+                            margin-top: -5%;
+                            label{
+                                font-size: 0.8rem;
+                                color:$text-secondary-light;
+                            }
+                        } 
+                        .body-detail-all{
+                            width:100%;
+                            display: flex;
+                            .col-md-3{
+                                img{  
+                                    width:90%;
+                                    margin-top: 0%;                                  
+                                }
+                            }
+                            .col-md-9{
+                                .row{
+                                    width: 100%;
+                                    display: flex;
+                                    margin-top: 4%;
+                                    .col-xs-6{
+                                        width:50%;
+                                        div{
+                                            display: flex;
+                                            margin-top: 10px;
+                                            label{
+                                                font-size: 0.9rem;
+                                                color:$text-secondary-light;
+                                                margin-left: 0.7rem;
+                                                span{
+                                                    color:$text-secondary-light;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .col-md-3{
+                                display: none;
+                            }
+                        }          
+                    }
+                }
+                .patient-first-row1{
+                    display: block;
+                    width:100%;
+                    margin-top: 21rem;
+                    height:99%;
+                    .patient-sub-row{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width: 100%;   
+                        padding: 0.5rem;
+                        label{
+                            color: $text-primary;
+                            font-size: 1.2rem;
+                            font-family: Futura Medium;
+                        }                
+                    }
+                    .patient-sub-row1{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+                        width:100%;
+                        margin-left: 1%;  
+                        padding:10px;
+                        label{
+                            font-family: Futura Medium;
+                            color:$text-primary;
+                        }                 
+                    }
+                }
+            }
+        }
+    }
+}

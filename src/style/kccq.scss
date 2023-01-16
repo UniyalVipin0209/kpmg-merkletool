@@ -1,0 +1,2402 @@
+@import './abstract/colors';
+@import './abstract/fonts';
+@media only screen and (min-width: 360px){
+    #kccq_body{
+        display: flex;
+        width: 96vw;
+        margin-left: 2vw;
+        #kccq_subBody{
+            display: none;
+            margin-top: 1rem;
+            width: 25vw;
+            #box1{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 2rem;
+                margin-top: 1rem;
+                label{
+                    font-family: futura;
+                    font-size: 1.3rem;
+                    margin-bottom: 2rem;
+                }
+                #box1_sub{
+                    display: flex;
+                    margin-top: 1rem;
+                    label{
+                        width: 20rem;
+                        font-weight: 300;
+                        font-size: 1rem;
+                        color: #838284;
+                        margin-bottom: 1rem;
+                    }
+                    #circle_right{
+                        color:#836198;
+                        font-size: 1.2rem;
+                    }
+                }
+                #background{
+                    display: grid;
+                    background-color: #F5FFFF;
+                    padding: 1rem;
+                    
+                    #being_{
+                        display: flex;
+                        #docimg{
+                            width: 15rem;
+                        }
+                        div{
+                            width: 9rem;
+                        }
+                        #cardio_area{
+                            label{
+                                font-family: futura-book;
+                                font-weight: bold;
+                                font-size: 1.1rem;
+                            }
+                            button{
+                                padding: 0.5rem 1rem;
+                                background-color: #7E4F9B;
+                                border: none;
+                                border-radius: 0.3rem;
+                                color: white
+                            }
+                        }
+                    }
+                }
+                #next_sec{
+                    label{
+                        font-family: futura-medium;
+                        margin-top: 1rem;
+                    }
+                    p{
+                        font-family: futura-book;
+                    }
+                }
+            }
+        }
+        #kccq_subBody1{
+            margin-top: 2rem;
+            margin-left: 0rem;
+            width: 96vw;
+            display:grid;
+            #first_questbody{
+                box-shadow: '';
+                padding: 2rem;
+                display: grid; 
+                button{
+                    width: 5rem;
+                    margin-top: 1rem;
+                    border: none;
+                    background-color: white;
+                    outline: none;
+                    font-family: futura-book;
+                    margin-left:13rem;
+                    color: #836198;
+                    font-style: italic;
+                }
+                #next_button1{
+                    padding: 5px 11px;
+                    font-weight: 400;
+                    background-color:#7e4f9b;
+                    color: white;
+                    border-radius: 5px;
+                    font-style:normal;
+                }
+                #logo_row{
+                    text-align: right;
+                    img{
+                        width: 10rem;
+                    }
+                }  
+                #kccq_heading{
+                    label{
+                        font-family: futura;
+                        font-size: 1rem;
+                        span{
+                            color:#836198;
+                        }
+                    }
+                } 
+                #progress_bar{
+                    img{
+                        width:18rem;
+                        margin-top: 3rem;
+                    }
+                }  
+                #kccq_question{
+                    margin-top: 2rem;
+                    p{
+                        color:#7E4F9B;
+                        font-family: futura-pt-demi;
+                        font-weight: normal;
+                        letter-spacing: 0rem;
+                        span{
+                            font-weight: bolder;
+                        }
+                    }
+                    label{
+                        color: red;
+                        font-size: 12px;
+                    }
+                }  
+                #kccq_table{
+                    box-shadow: '';
+                    #table_other{
+                        display: none;
+                        #table_heading{
+                            display:flex;
+                            background-color: #507b9b;
+                            padding:1rem;
+                            label{
+                                color:white;
+                                font-weight:bold;
+                                font-family: futura-medium;
+                            }
+                            #label{
+                                width: 10rem;
+                            }
+                            #label1{
+                                width:5.2rem;
+                            }
+                        }
+                        #table_data{
+                            display:flex;
+                            background-color: white;
+                            padding:1rem;
+                            margin-top: 1rem;
+                            label{
+                                color:white;
+                                font-weight:bold;
+                                font-family: futura-medium;
+                            }
+                            #label{
+                                width: 10rem;
+                                font-family: futura-book;
+                                color:#59656E;
+                                span{
+                                    font-size: 12px;
+                                    color: red
+                                }
+                            }
+                            #label1{
+                                width:5.2rem;
+                            }
+                        }
+                        #table_heading_secQues{
+                            display: flex;
+                            #label1{
+                                width: 12rem;
+                                font-family: futura-book;
+                                margin-left: 0.5rem;
+                                color:#59656E;
+                                font-weight: 500;
+                            }
+                            #label2{
+                                width:8rem;
+                                font-family: futura-book;
+                                color: #59656E;
+                                font-weight: 500;
+                            }
+                        }
+                        #table_data_secQues{
+                            display: flex;
+                            margin-top: 2rem;
+                            #label1{
+                                width: 12rem;
+                                margin-left: 0.5rem;
+                            }
+                            #label2{
+                                width:8rem;
+                            }
+                        }
+                    }
+                    #table_mobile{
+                        display:grid;
+                        #label1{
+                            margin-top:1rem;
+                            margin-bottom:1rem;
+                            color:'black';
+                            font-family: futura-medium;
+                        }
+                        #label{
+                            color:grer;
+                            font-family: futura-book;
+                            display: flex;
+                            #span1{
+                                width:13rem;
+                                color:#7B7B7B;
+                            }
+                        }
+
+                    }
+                }        
+            }
+            
+        }
+    }
+
+    .result-body{
+        width: 100%;
+        height:100%;
+        display: grid;
+        margin-top: 1%;
+        .block-one{
+            width:96%;
+            height: 100%;
+            margin-left: 2%;
+            .sub-block1{
+                width: 100%;
+                height:24rem;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                padding: 1rem;
+                
+                label{
+                    color: #7E4F9B;
+                    font-family: Futura Medium;
+                }
+                p{
+                    font-family: Futura Medium;
+                }
+                span{
+                    font-family: Futura Medium;
+                }
+                #label_dev{
+                    color:$text-dark-color;
+                    span{
+                        color: $text-secondary-light;
+                    }
+                }
+                #detail{
+                    width: 100%;
+                    .row{
+                        width: 100%;
+                        .row-detail{
+                            width:50%;
+                            .row{
+                                width: 100%;
+                                .detail-ar{
+                                    width: 50%;
+                                    label{
+                                        font-size: 15px;
+                                        color:$text-dark-color;
+                                        font-family: Futura Medium;
+                                    }
+                                    span{
+                                        font-size: 12px;
+                                        color:$text-secondary-light;
+                                        font-family: Futura Medium;
+                                    }
+                                }
+                            }
+                        }
+                        .row-detail1{
+                            width:50%;
+                            .row{
+                                width: 100%;
+                                .detail-ar{
+                                    width: 50%;
+                                    label{
+                                        font-size: 12px;
+                                        color:$text-dark-color;
+                                        font-family: Futura Medium;
+                                    }
+                                    span{
+                                        font-size: 12px;
+                                        color:$text-secondary-light;
+                                        font-family: Futura Medium;
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .sub-block2{
+                width: 100%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                margin-top:2%;
+                height: 17rem;
+                padding: 1rem;
+                #label_head{
+                    font-weight: bold;
+                    margin-bottom: 2rem;
+                }
+                #label_nami{
+                    margin-bottom: 1.5rem;
+                    color: $text-secondary-light;
+                    width: 93%;
+                    font-size: 11px;
+                }
+                #symb{
+                    color:$text-primary
+                }
+            }
+        }
+        .block-two{
+            width:96%;
+            margin-left: 2%;
+            margin-top: 2%;
+            height: fit-content;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 5px;
+            padding: 1rem;
+            .div_flx{
+                width: 100%;
+                display: flex;
+                label{
+                    font-size: 15px;
+                    font-family: Futura Heavy font;
+                    width: 85%;
+                    span{
+                        color: $text-primary;
+                    }
+                }
+                #logo{
+                    margin-left: 0%;
+                    margin-top: 0px;
+                    width: 15%;
+                }
+            }
+            label{
+                margin-top: 2rem;
+                font-size: 15px;
+                font-family: Futura Heavy font;
+                span{
+                    color: $text-primary;
+                }
+            }
+            p{
+                margin-top: 2rem;
+                font-family: futura-pt-demi;
+            }
+            #table_val{
+                width: 93%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                margin-top: 2%;
+                #row_head{
+                    background-color:#225D65E6;
+                    width: 100%;
+                    .col-md-6{
+                        width: 50%;
+                        label{
+                            color: white;
+                            margin-top: 0rem;
+                            padding: 10px;
+                        }
+                    }
+                    
+                }
+                #row_data{
+                    .col-md-6{
+                        width: 50%;
+                        label{
+                            font-size: 13px;
+                            line-height: 1rem;
+                        }
+                    }
+                }
+            }
+            #cal_ar{
+                background-image: url('../Assets/Rectangle\ 395.png');
+                width: 83%;
+                label{
+                    color: white;
+                }
+                p{
+                    padding:10px;
+                    background-color: white;
+                    width: 60%;
+                    color: #4f9b6c;
+                    margin-bottom: 1rem;
+                }
+            }
+            #grp_data{
+                width: 100%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                margin-left: 0%;
+                #sec_grp{
+                    label{
+                        font-size: 10px;
+                        width: 100%;
+                    }
+                    a{
+                        font-size: 10px;
+                    }
+                }
+            }
+            #remrk_data{
+                width: 100%;
+                margin-top: 1rem;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 1rem;
+                textarea{
+                    width: 100%;
+                    border:none;
+                    height: 6rem;
+                }
+                button{
+                    width: 40%;
+                    margin-left:65%;
+                    color:white ;
+                    background-color: #225D65E6;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+            #scoring{
+                width:100%;
+                margin-left: 0%;
+                #collapsible{
+                    padding:10px;
+                    margin-top: 1rem;
+                    color: white;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    .accordion > input[type="checkbox"] {
+                        position: absolute;
+                        left: -100vw;
+                    }
+                    
+                    .accordion .content {
+                        overflow-y: hidden;
+                        height: 0;
+                        transition: height 0.3s ease;
+                        #record_data{
+                            display: flex;
+                            label{
+                                width: 70%;
+                                margin-top: -4%;
+                                margin-left:10%;
+                                font-family:futura-book;
+                                font-size: 1rem;
+                            }
+                            span{
+                                color: #333;
+                                margin-top: -2%;
+                            }
+                        }
+                        p{
+                            font-family: futura-book;
+                        }
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .content {
+                        height: auto;
+                        overflow: visible;
+                    }
+                    
+                    .accordion label {
+                        display: block;
+                        font-family: futura-demi;
+                        margin-top: 2.5rem;
+                    }
+                    body {
+                        font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+                        color: #333;
+                        font-weight: 300;
+                    }
+                    
+                    .accordion {
+                        margin-bottom: 1em;
+                        border:1px solid lightgray;
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .content {
+                        padding: 15px;
+                        border: 1px solid #e8e8e8;
+                        border-top: 0;
+                    }
+                    
+                    .accordion .handle {
+                        margin: 0;
+                        font-size: 1.125em;
+                        line-height: 1.2em;
+                        margin-top: -12%;
+                    }
+                    
+                    .accordion label {
+                        color: #333;
+                        cursor: pointer;
+                        font-weight: normal;
+                        padding: 15px;
+                    }
+                    
+                    .accordion label:hover,
+                    .accordion label:focus {
+                    }
+                    
+                    .accordion .handle label:before {
+                        font-family: 'fontawesome';
+                        content: "\f054";
+                        display: inline-block;
+                        margin-right: 10px;
+                        font-size: .58em;
+                        line-height: 1.556em;
+                        vertical-align: middle;
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .handle label:before {
+                        content: "\f078";
+                    }
+                    
+                    
+                    /*
+                    Demo purposes only
+                    */
+                    *,
+                    *:before,
+                    *:after {
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        padding: 40px;
+                    }
+                    
+                    a {
+                        color: #06c;
+                    }
+                    
+                    p {
+                        margin: 0 0 1em;
+                    }
+                    
+                    h1 {
+                        margin: 0 0 1.5em;
+                        font-weight: 600;
+                        font-size: 1.5em;
+                    }
+                    
+                    .accordion {
+                        max-width: 65em;
+                    }
+                    
+                    .accordion p:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    #kccq_body{
+        display: flex;
+        width: 96vw;
+        margin-left: 2vw;
+        #kccq_subBody{
+            display: none;
+            margin-top: 1rem;
+            width: 25vw;
+            #box1{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 2rem;
+                margin-top: 1rem;
+                label{
+                    font-family: futura;
+                    font-size: 1.3rem;
+                    margin-bottom: 2rem;
+                }
+                #box1_sub{
+                    display: flex;
+                    margin-top: 1rem;
+                    label{
+                        width: 20rem;
+                        font-weight: 300;
+                        font-size: 1rem;
+                        color: #838284;
+                        margin-bottom: 1rem;
+                    }
+                    #circle_right{
+                        color:#836198;
+                        font-size: 1.2rem;
+                    }
+                }
+                #background{
+                    display: grid;
+                    background-color: #F5FFFF;
+                    padding: 1rem;
+                    
+                    #being_{
+                        display: flex;
+                        #docimg{
+                            width: 15rem;
+                        }
+                        div{
+                            width: 9rem;
+                        }
+                        #cardio_area{
+                            label{
+                                font-family: futura-book;
+                                font-weight: bold;
+                                font-size: 1.1rem;
+                            }
+                            button{
+                                padding: 0.5rem 1rem;
+                                background-color: #7E4F9B;
+                                border: none;
+                                border-radius: 0.3rem;
+                                color: white
+                            }
+                        }
+                    }
+                }
+                #next_sec{
+                    label{
+                        font-family: futura-medium;
+                        margin-top: 1rem;
+                    }
+                    p{
+                        font-family: futura-book;
+                    }
+                }
+            }
+        }
+        #kccq_subBody1{
+            margin-top: 2rem;
+            margin-left: 0rem;
+            width: 94vw;
+            display:grid;
+            #first_questbody{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 2rem;
+                display: grid; 
+                button{
+                    width: 5rem;
+                    margin-top: 1rem;
+                    border: none;
+                    background-color: white;
+                    outline: none;
+                    font-family: futura-book;
+                    margin-left:35rem;
+                    color: #836198;
+                    font-style: italic;
+                }
+
+                #next_button1{
+                    padding: 5px 11px;
+                    font-weight: 400;
+                    background-color:#7e4f9b;
+                    color: white;
+                    border-radius: 5px;
+                    font-style:normal;
+                }
+                #logo_row{
+                    text-align: right;
+                    img{
+                        width: 10rem;
+                    }
+                }  
+                #kccq_heading{
+                    label{
+                        font-family: futura;
+                        font-size: 1.4rem;
+                        span{
+                            color:#836198;
+                        }
+                    }
+                } 
+                #progress_bar{
+                    img{
+                        width:39rem;
+                        margin-top: 3rem;
+                    }
+                }  
+                #kccq_question{
+                    margin-top: 2rem;
+                    p{
+                        color:#7E4F9B;
+                        font-family: futura-medium;
+                        font-weight: bold;
+                        letter-spacing: 0rem;
+                    }
+                    label{
+                        color: red;
+                        font-size: 12px;
+                    }
+                }  
+                #kccq_table{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 0.5rem;
+                    #table_other{
+                        display: grid;
+                        #table_heading{
+                            display:flex;
+                            background-color: #507b9b;
+                            padding:1rem;
+                            label{
+                                color:white;
+                                font-weight:bold;
+                                font-family: futura-medium;
+                            }
+                            #label{
+                                width: 6rem;
+                            }
+                            #label1{
+                                width:4.2rem;
+                                margin-left: 0.5rem;
+                            }
+                        }
+                        #table_data{
+                            display:flex;
+                            background-color: white;
+                            padding:1rem;
+                            margin-top: 1rem;
+                            label{
+                                color:white;
+                                font-weight:bold;
+                                font-family: futura-medium;
+                            }
+                            #label{
+                                width: 6rem;
+                                font-family: futura-book;
+                                color:#59656E;
+                                span{
+                                    font-size: 12px;
+                                    color: red
+                                }
+                            }
+                            #label1{
+                                width:4.2rem;
+                                margin-left: 0.5rem;
+                            }
+                        }
+
+                        #table_heading_secQues{
+                            display: flex;
+                            #label1{
+                                width: 8rem;
+                                font-family: futura-book;
+                                margin-left: 0.5rem;
+                                color:#59656E;
+                                font-weight: 500;
+                            }
+                            #label2{
+                                width:4rem;
+                                font-family: futura-book;
+                                color: #59656E;
+                                font-weight: 500;
+                            }
+                        }
+                        #table_data_secQues{
+                            display: flex;
+                            margin-top: 2rem;
+                            #label1{
+                                width: 8rem;
+                                margin-left: 0.5rem;
+                            }
+                            #label2{
+                                width:4rem;
+                            }
+                        }
+
+                        #table_heading_thrdQues{
+                            display: flex;
+                            #label1{
+                                width: 5rem;
+                                font-family: futura-book;
+                                margin-left: 0.5rem;
+                                color:#59656E;
+                                font-weight: 500;
+                            }
+                        }
+                        #table_data_thrdQues{
+                            display: flex;
+                            margin-top: 2rem;
+                            #label1{
+                                width: 5rem;
+                                margin-left: 0.5rem;
+                            }
+                        }
+                    }
+                    #table_mobile{
+                        display:none;
+
+                    }
+                }        
+            }
+            
+        }
+    }
+
+    .result-body{
+        width: 100%;
+        height:100%;
+        display: flex;
+        margin-top: 1%;
+        .block-one{
+            width:43%;
+            height: 100%;
+            margin-left: 2%;
+            .sub-block1{
+                width: 100%;
+                height:24rem;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                padding: 1rem;
+                
+                label{
+                    color: #7E4F9B;
+                    font-family: Futura Medium;
+                }
+                p{
+                    font-family: Futura Medium;
+                }
+                span{
+                    font-family: Futura Medium;
+                }
+                #label_dev{
+                    color:$text-dark-color;
+                    span{
+                        color: $text-secondary-light;
+                    }
+                }
+                #detail{
+                    width: 100%;
+                    .row{
+                        width: 100%;
+                        .row-detail{
+                            width:50%;
+                            .row{
+                                width: 100%;
+                                .detail-ar{
+                                    width: 50%;
+                                    label{
+                                        font-size: 15px;
+                                        color:$text-dark-color;
+                                        font-family: Futura Medium;
+                                    }
+                                    span{
+                                        font-size: 12px;
+                                        color:$text-secondary-light;
+                                        font-family: Futura Medium;
+                                    }
+                                }
+                            }
+                        }
+                        .row-detail1{
+                            width:50%;
+                            .row{
+                                width: 100%;
+                                .detail-ar{
+                                    width: 50%;
+                                    label{
+                                        font-size: 12px;
+                                        color:$text-dark-color;
+                                        font-family: Futura Medium;
+                                    }
+                                    span{
+                                        font-size: 12px;
+                                        color:$text-secondary-light;
+                                        font-family: Futura Medium;
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .sub-block2{
+                width: 100%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                margin-top:2%;
+                height: 17rem;
+                padding: 1rem;
+                #label_head{
+                    font-weight: bold;
+                    margin-bottom: 2rem;
+                }
+                #label_nami{
+                    margin-bottom: 1.5rem;
+                    color: $text-secondary-light;
+                    width: 93%;
+                    font-size: 11px;
+                }
+                #symb{
+                    color:$text-primary
+                }
+            }
+        }
+        .block-two{
+            width:53%;
+            margin-left: 1%;
+            height: fit-content;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 5px;
+            padding: 1rem;
+            .div_flx{
+                width: 100%;
+                display: flex;
+                label{
+                    font-size: 15px;
+                    font-family: Futura Heavy font;
+                    width: 85%;
+                    span{
+                        color: $text-primary;
+                    }
+                }
+                #logo{
+                    margin-left: 0%;
+                    margin-top: 0px;
+                    width: 15%;
+                }
+            }
+            label{
+                margin-top: 2rem;
+                font-size: 15px;
+                font-family: Futura Heavy font;
+                span{
+                    color: $text-primary;
+                }
+            }
+            p{
+                margin-top: 2rem;
+                font-family: futura-pt-demi;
+            }
+            #table_val{
+                width: 93%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                margin-top: 2%;
+                #row_head{
+                    background-color:#225D65E6;
+                    width: 100%;
+                    label{
+                        color: white;
+                        margin-top: 0rem;
+                        padding: 10px;
+                    }
+                }
+                #row_data{
+                    label{
+                        font-size: 13px;
+                        line-height: 1rem;
+                    }
+                }
+            }
+            #cal_ar{
+                background-image: url('../Assets/Rectangle\ 395.png');
+                width: 83%;
+                label{
+                    color: white;
+                }
+                p{
+                    padding:10px;
+                    background-color: white;
+                    width: 60%;
+                    color: #4f9b6c;
+                    margin-bottom: 1rem;
+                }
+            }
+            #grp_data{
+                width: 80%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                margin-left: 10%;
+                #sec_grp{
+                    label{
+                        font-size: 7px;
+                    }
+                    a{
+                        font-size: 7px;
+                    }
+                }
+            }
+            #remrk_data{
+                width: 70%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 1rem;
+                textarea{
+                    width: 100%;
+                    border:none;
+                    height: 6rem;
+                }
+                button{
+                    width: 30%;
+                    margin-left:72%;
+                    color:white ;
+                    background-color: #225D65E6;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+            #scoring{
+                width:80%;
+                margin-left: 10%;
+                #collapsible{
+                    padding:10px;
+                    color: white;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    .accordion > input[type="checkbox"] {
+                        position: absolute;
+                        left: -100vw;
+                    }
+                    
+                    .accordion .content {
+                        overflow-y: hidden;
+                        height: 0;
+                        transition: height 0.3s ease;
+                        #record_data{
+                            display: flex;
+                            label{
+                                width: 70%;
+                                margin-top: -4%;
+                                margin-left:10%;
+                                font-family:futura-book;
+                                font-size: 1rem;
+                            }
+                            span{
+                                color: #333;
+                                margin-top: -2%;
+                            }
+                        }
+                        p{
+                            font-family: futura-book;
+                        }
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .content {
+                        height: auto;
+                        overflow: visible;
+                    }
+                    
+                    .accordion label {
+                        display: block;
+                        font-family: futura-demi;
+                        margin-top: 2.5rem;
+                    }
+                    body {
+                        font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+                        color: #333;
+                        font-weight: 300;
+                    }
+                    
+                    .accordion {
+                        margin-bottom: 1em;
+                        border:1px solid lightgray;
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .content {
+                        padding: 15px;
+                        border: 1px solid #e8e8e8;
+                        border-top: 0;
+                    }
+                    
+                    .accordion .handle {
+                        margin: 0;
+                        font-size: 1.125em;
+                        line-height: 1.2em;
+                        margin-top: -12%;
+                    }
+                    
+                    .accordion label {
+                        color: #333;
+                        cursor: pointer;
+                        font-weight: normal;
+                        padding: 15px;
+                    }
+                    
+                    .accordion label:hover,
+                    .accordion label:focus {
+                    }
+                    
+                    .accordion .handle label:before {
+                        font-family: 'fontawesome';
+                        content: "\f054";
+                        display: inline-block;
+                        margin-right: 10px;
+                        font-size: .58em;
+                        line-height: 1.556em;
+                        vertical-align: middle;
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .handle label:before {
+                        content: "\f078";
+                    }
+                    
+                    
+                    /*
+                    Demo purposes only
+                    */
+                    *,
+                    *:before,
+                    *:after {
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        padding: 40px;
+                    }
+                    
+                    a {
+                        color: #06c;
+                    }
+                    
+                    p {
+                        margin: 0 0 1em;
+                    }
+                    
+                    h1 {
+                        margin: 0 0 1.5em;
+                        font-weight: 600;
+                        font-size: 1.5em;
+                    }
+                    
+                    .accordion {
+                        max-width: 65em;
+                    }
+                    
+                    .accordion p:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 992px){
+    #kccq_body{
+        display: flex;
+        width: 96%;
+        margin-left: 2vw;
+        #kccq_subBody{
+            display: grid;
+            margin-top: 1rem;
+            width: 25%;
+            #box1{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 2rem;
+                margin-top: 1rem;
+                label{
+                    font-family: futura;
+                    font-size: 1rem;
+                    margin-bottom: 2rem;
+                }
+                #box1_sub{
+                    display: flex;
+                    margin-top: 1rem;
+                    label{
+                        width: 90%;
+                        font-weight: 300;
+                        font-size: 1rem;
+                        color: #838284;
+                        margin-bottom: 1rem;
+                    }
+                    #circle_right{
+                        color:#836198;
+                        font-size: 1.2rem;
+                    }
+                }
+                #background{
+                    display: grid;
+                    background-color: #F5FFFF;
+                    padding: 1rem;
+                    
+                    #being_{
+                        display: flex;
+                        #docimg{
+                            width: 9rem;
+                        }
+                        div{
+                            width: 5rem;
+                        }
+                        #cardio_area{
+                            label{
+                                font-family: futura-book;
+                                font-weight: bold;
+                                font-size: 1.1rem;
+                            }
+                            button{
+                                padding: 0.5rem 1rem;
+                                background-color: #7E4F9B;
+                                border: none;
+                                border-radius: 0.3rem;
+                                color: white
+                            }
+                        }
+                    }
+                }
+                #next_sec{
+                    label{
+                        font-family: futura-medium;
+                        margin-top: 1rem;
+                    }
+                    p{
+                        font-family: futura-book;
+                    }
+                }
+            }
+        }
+        #kccq_subBody1{
+            margin-top: 2rem;
+            margin-left: 2%;
+            width: 73%;
+            display:grid;
+            #first_questbody{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 2rem;
+                display: grid; 
+                button{
+                    width: 5rem;
+                    margin-top: 1rem;
+                    border: none;
+                    background-color: white;
+                    outline: none;
+                    font-family: futura-book;
+                    margin-left:87%;
+                    color: #836198;
+                    font-style: italic;
+                }
+                #next_button1{
+                    padding: 5px 11px;
+                    font-weight: 400;
+                    background-color:#7e4f9b;
+                    color: white;
+                    border-radius: 5px;
+                    font-style:normal;
+                }
+                #logo_row{
+                    text-align: right;
+                    img{
+                        width: 10rem;
+                    }
+                }  
+                #kccq_heading{
+                    label{
+                        font-family: futura;
+                        font-size: 1.4rem;
+                        span{
+                            color:#836198;
+                        }
+                    }
+                } 
+                #progress_bar{
+                    img{
+                        width:100%;
+                        margin-top: 3rem;
+                    }
+                }  
+                #kccq_question{
+                    margin-top: 2rem;
+                    p{
+                        color:#7E4F9B;
+                        font-family: futura-medium;
+                        font-weight: bold;
+                        letter-spacing: 0rem;
+                    }
+                    label{
+                        color: red;
+                        font-size: 12px;
+                    }
+                }  
+                #kccq_table{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 1rem;
+                    #table_other{
+                        display: grid;
+                        #table_heading{
+                            display:flex;
+                            background-color: #507b9b;
+                            padding:1rem;
+                            label{
+                                color:white;
+                                font-weight:bold;
+                                font-family: futura-medium;
+                            }
+                            #label{
+                                width: 16%;
+                            }
+                            #label1{
+                                width:13%;
+                            }
+                        }
+                        #table_data{
+                            display:flex;
+                            background-color: white;
+                            padding:1rem;
+                            margin-top: 1rem;
+                            label{
+                                color:white;
+                                font-weight:bold;
+                                font-family: futura-medium;
+                            }
+                            #label{
+                                width: 16%;
+                                font-family: futura-book;
+                                color:#59656E;
+                                span{
+                                    font-size: 12px;
+                                    color: red
+                                }
+                            }
+                            #label1{
+                                width:13%;
+                            }
+                        }
+
+                        #table_heading_secQues{
+                            display: flex;
+                            #label1{
+                                width: 20%;
+                                font-family: futura-book;
+                                margin-left: 0.5rem;
+                                color:#59656E;
+                                font-weight: 500;
+                            }
+                            #label2{
+                                width:20%;
+                                font-family: futura-book;
+                                color: #59656E;
+                                font-weight: 500;
+                            }
+                        }
+                        #table_data_secQues{
+                            display: flex;
+                            margin-top: 2rem;
+                            #label1{
+                                width: 20%;
+                                margin-left: 0.5rem;
+                            }
+                            #label2{
+                                width:20%;
+                            }
+                        }
+                        #table_heading_thrdQues{
+                            display: flex;
+                            #label1{
+                                width: 13%;
+                                font-family: futura-book;
+                                margin-left: 0.5rem;
+                                color:#59656E;
+                                font-weight: 500;
+                            }
+                        }
+                        #table_data_thrdQues{
+                            display: flex;
+                            margin-top: 2rem;
+                            #label1{
+                                width: 13%;
+                                margin-left: 0.5rem;
+                            }
+                        }
+                    }
+                    #table_mobile{
+                        display:none;
+
+                    }
+                }        
+            }
+            
+        }
+        #kccq_frstBody{
+            display: grid;
+            margin-top: 1rem;
+            width: 29%;  
+            #box3{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 2rem;
+                margin-top: 1rem;
+                label{
+                    font-family: futura;
+                    font-size: 1.3rem;
+                    margin-bottom: 2rem;
+                }
+                #option_kccq{
+                    label{
+                        font-size: 1rem;
+                        width: 22rem;
+                    }
+                    #circle_right{
+                        color: #836198;
+                        font-size: 1.5rem;
+                    }
+                }
+                #row_label1{ 
+                    font-family: futura-medium;
+                    font-size: 1.1rem;
+                    margin-bottom: 2rem; 
+                    color: #7e4f9b;                  
+                }
+                #name_area{
+                    label{
+                        color: #625d64;
+                        font-size: 1rem;
+                        height:0rem;
+                    }
+                    #label{
+                        color:#00000029;
+                        font-size: 0.9rem;
+                    }
+                }
+                #device_for{
+                    label{
+                        font-size: 1rem;
+                        font-family: futura-medium;
+                    }                    
+                }
+            }          
+        }
+    }  
+
+    .result-body{
+        width: 100%;
+        height:100%;
+        display: flex;
+        margin-top: 1%;
+        .block-one{
+            width:34%;
+            height: 100%;
+            margin-left: 2%;
+            .sub-block1{
+                width: 100%;
+                height:24rem;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                padding: 1rem;
+                
+                label{
+                    color: #7E4F9B;
+                    font-family: Futura Medium;
+                }
+                p{
+                    font-family: Futura Medium;
+                }
+                span{
+                    font-family: Futura Medium;
+                }
+                #label_dev{
+                    color:$text-dark-color;
+                    span{
+                        color: $text-secondary-light;
+                    }
+                }
+                #detail{
+                    width: 100%;
+                    .row{
+                        width: 100%;
+                        .row-detail{
+                            width:50%;
+                            .row{
+                                width: 100%;
+                                .detail-ar{
+                                    width: 50%;
+                                    label{
+                                        font-size: 15px;
+                                        color:$text-dark-color;
+                                        font-family: Futura Medium;
+                                    }
+                                    span{
+                                        font-size: 12px;
+                                        color:$text-secondary-light;
+                                        font-family: Futura Medium;
+                                    }
+                                }
+                            }
+                        }
+                        .row-detail1{
+                            width:50%;
+                            .row{
+                                width: 100%;
+                                .detail-ar{
+                                    width: 50%;
+                                    label{
+                                        font-size: 12px;
+                                        color:$text-dark-color;
+                                        font-family: Futura Medium;
+                                    }
+                                    span{
+                                        font-size: 12px;
+                                        color:$text-secondary-light;
+                                        font-family: Futura Medium;
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .sub-block2{
+                width: 100%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                margin-top:2%;
+                height: 17rem;
+                padding: 1rem;
+                #label_head{
+                    font-weight: bold;
+                    margin-bottom: 2rem;
+                }
+                #label_nami{
+                    margin-bottom: 1.5rem;
+                    color: $text-secondary-light;
+                    width: 94%;
+                }
+                #symb{
+                    color:$text-primary
+                }
+            }
+        }
+        .block-two{
+            width:62%;
+            margin-left: 1%;
+            height: fit-content;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 5px;
+            padding: 1rem;
+            .div_flx{
+                width: 100%;
+                display: flex;
+                label{
+                    font-size: 15px;
+                    font-family: Futura Heavy font;
+                    width: 85%;
+                    span{
+                        color: $text-primary;
+                    }
+                }
+                #logo{
+                    margin-left: 0%;
+                    margin-top: 0px;
+                    width: 15%;
+                }
+            }
+            label{
+                margin-top: 2rem;
+                font-size: 15px;
+                font-family: Futura Heavy font;
+                span{
+                    color: $text-primary;
+                }
+            }
+            p{
+                margin-top: 2rem;
+                font-family: futura-pt-demi;
+            }
+            #table_val{
+                width: 93%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                margin-top: 2%;
+                #row_head{
+                    background-color:#225D65E6;
+                    width: 100%;
+                    label{
+                        color: white;
+                        margin-top: 0rem;
+                        padding: 10px;
+                    }
+                }
+                #row_data{
+                    label{
+                        font-size: 13px;
+                        line-height: 1rem;
+                    }
+                }
+            }
+            #cal_ar{
+                background-image: url('../Assets/Rectangle\ 395.png');
+                width: 83%;
+                label{
+                    color: white;
+                }
+                p{
+                    padding:10px;
+                    background-color: white;
+                    width: 60%;
+                    color: #4f9b6c;
+                    margin-bottom: 1rem;
+                }
+            }
+            #grp_data{
+                width: 80%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                margin-left: 10%;
+                #sec_grp{
+                    label{
+                        font-size: 12px;
+                    }
+                }
+            }
+            #remrk_data{
+                width: 70%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 1rem;
+                textarea{
+                    width: 100%;
+                    border:none;
+                    height: 10rem;
+                }
+                button{
+                    width: 20%;
+                    margin-left:80%;
+                    color:white ;
+                    background-color: #225D65E6;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+            #scoring{
+                width:80%;
+                margin-left: 10%;
+                #collapsible{
+                    padding:10px;
+                    color: white;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    .accordion > input[type="checkbox"] {
+                        position: absolute;
+                        left: -100vw;
+                    }
+                    
+                    .accordion .content {
+                        overflow-y: hidden;
+                        height: 0;
+                        transition: height 0.3s ease;
+                        #record_data{
+                            display: flex;
+                            label{
+                                width: 70%;
+                                margin-top: -4%;
+                                margin-left:10%;
+                                font-family:futura-book;
+                                font-size: 1rem;
+                            }
+                            span{
+                                color: #333;
+                                margin-top: -2%;
+                            }
+                        }
+                        p{
+                            font-family: futura-book;
+                        }
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .content {
+                        height: auto;
+                        overflow: visible;
+                    }
+                    
+                    .accordion label {
+                        display: block;
+                        font-family: futura-demi;
+                        margin-top: 2.5rem;
+                    }
+                    body {
+                        font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+                        color: #333;
+                        font-weight: 300;
+                    }
+                    
+                    .accordion {
+                        margin-bottom: 1em;
+                        border:1px solid lightgray;
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .content {
+                        padding: 15px;
+                        border: 1px solid #e8e8e8;
+                        border-top: 0;
+                    }
+                    
+                    .accordion .handle {
+                        margin: 0;
+                        font-size: 1.125em;
+                        line-height: 1.2em;
+                        margin-top: -8%;
+                    }
+                    
+                    .accordion label {
+                        color: #333;
+                        cursor: pointer;
+                        font-weight: normal;
+                        padding: 15px;
+                    }
+                    
+                    .accordion label:hover,
+                    .accordion label:focus {
+                    }
+                    
+                    .accordion .handle label:before {
+                        font-family: 'fontawesome';
+                        content: "\f054";
+                        display: inline-block;
+                        margin-right: 10px;
+                        font-size: .58em;
+                        line-height: 1.556em;
+                        vertical-align: middle;
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .handle label:before {
+                        content: "\f078";
+                    }
+                    
+                    
+                    /*
+                    Demo purposes only
+                    */
+                    *,
+                    *:before,
+                    *:after {
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        padding: 40px;
+                    }
+                    
+                    a {
+                        color: #06c;
+                    }
+                    
+                    p {
+                        margin: 0 0 1em;
+                    }
+                    
+                    h1 {
+                        margin: 0 0 1.5em;
+                        font-weight: 600;
+                        font-size: 1.5em;
+                    }
+                    
+                    .accordion {
+                        max-width: 65em;
+                    }
+                    
+                    .accordion p:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1280px){
+    #kccq_body{
+        display: flex;
+        width: 96%;
+        margin-left: 1%;
+        #kccq_subBody{
+            display: grid;
+            margin-top: 1rem;
+            width: 25%;
+            #box1{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 2rem;
+                margin-top: 1rem;
+                label{
+                    font-family: futura;
+                    font-size: 1.3rem;
+                    margin-bottom: 2rem;
+                }
+                #box1_sub{
+                    display: flex;
+                    margin-top: 1rem;
+                    label{
+                        width: 100%;
+                        font-weight: 300;
+                        font-size: 1rem;
+                        color: #838284;
+                        margin-bottom: 1rem;
+                    }
+                    #circle_right{
+                        color:#836198;
+                        font-size: 1.2rem;
+                    }
+                }
+                #background{
+                    display: grid;
+                    background-color: #F5FFFF;
+                    padding: 1rem;
+                    
+                    #being_{
+                        display: flex;
+                        #docimg{
+                            width: 115%;
+                        }
+                        div{
+                            width: 9rem;
+                        }
+                        #cardio_area{
+                            label{
+                                font-family: futura-book;
+                                font-weight: bold;
+                                font-size: 1.1rem;
+                            }
+                            button{
+                                padding: 0.5rem 1rem;
+                                background-color: #7E4F9B;
+                                border: none;
+                                border-radius: 0.3rem;
+                                color: white
+                            }
+                        }
+                    }
+                }
+                #next_sec{
+                    label{
+                        font-family: futura-medium;
+                        margin-top: 1rem;
+                    }
+                    p{
+                        font-family: futura-book;
+                    }
+                }
+            }
+        }
+        #kccq_subBody1{
+            margin-top: 2rem;
+            margin-left: 4%;
+            width: 68%;
+            display:grid;
+            #first_questbody{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 2rem;
+                display: grid; 
+                button{
+                    width: 5rem;
+                    margin-top: 1rem;
+                    border: none;
+                    background-color: white;
+                    outline: none;
+                    font-family: futura-book;
+                    margin-left:56rem;
+                    color: #836198;
+                    font-style: italic;
+                }
+                #next_button1{
+                    padding: 5px 11px;
+                    font-weight: 400;
+                    background-color:#7e4f9b;
+                    color: white;
+                    border-radius: 5px;
+                    font-style:normal;
+                }
+                #logo_row{
+                    text-align: right;
+                    img{
+                        width: 10rem;
+                    }
+                }  
+                #kccq_heading{
+                    label{
+                        font-family: futura;
+                        font-size: 1.4rem;
+                        span{
+                            color:#836198;
+                        }
+                    }
+                } 
+                #progress_bar{
+                    img{
+                        width:60rem;
+                        margin-top: 3rem;
+                    }
+                }  
+                #kccq_question{
+                    margin-top: 2rem;
+                    p{
+                        color:#7E4F9B;
+                        font-size: 18px;
+                        font-family: futura-pt-demi;
+                        font-weight:300;
+                        letter-spacing: 0rem;
+                        span{
+                            font-weight: 600;
+                            letter-spacing: 0.2mm;
+                        }
+                    }
+                    label{
+                        color: red;
+                        font-size: 12px;
+                    }
+                }  
+                #kccq_table{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 1rem;
+                    #table_other{
+                        display: grid;
+                        #table_heading{
+                            display:flex;
+                            background-color: #507b9b;
+                            padding:1rem;
+                            label{
+                                color:white;
+                                font-weight:bold;
+                                font-family: futura-medium;
+                            }
+                            #label{
+                                width: 13rem;
+                            }
+                            #label1{
+                                width:7rem;
+                            }
+                        }
+                        #table_data{
+                            display:flex;
+                            background-color: white;
+                            padding:1rem;
+                            margin-top: 1rem;
+                            label{
+                                color:white;
+                                font-weight:bold;
+                                font-family: futura-medium;
+                            }
+                            #label{
+                                width: 13rem;
+                                font-family: futura-book;
+                                color:#59656E;
+                                span{
+                                    font-size: 12px;
+                                    color: red
+                                }
+                            }
+                            #label1{
+                                width:7rem;
+                            }
+                        }
+
+                        #table_heading_secQues{
+                            display: flex;
+                            #label1{
+                                width: 12rem;
+                                font-family: futura-book;
+                                margin-left: 0.5rem;
+                                color:#59656E;
+                                font-weight: 500;
+                            }
+                            #label2{
+                                width:8rem;
+                                font-family: futura-book;
+                                color: #59656E;
+                                font-weight: 500;
+                            }
+                        }
+                        #table_data_secQues{
+                            display: flex;
+                            margin-top: 2rem;
+                            #label1{
+                                width: 12rem;
+                                margin-left: 0.5rem;
+                            }
+                            #label2{
+                                width:8rem;
+                            }
+                        }
+                        #table_heading_thrdQues{
+                            display: flex;
+                            #label1{
+                                width: 8rem;
+                                font-family: futura-book;
+                                margin-left: 0.5rem;
+                                color:#59656E;
+                                font-weight: 500;
+                            }
+                        }
+                        #table_data_thrdQues{
+                            display: flex;
+                            margin-top: 2rem;
+                            #label1{
+                                width: 8rem;
+                                margin-left: 0.5rem;
+                            }
+                        }
+                    }
+                    #table_mobile{
+                        display:none;
+
+                    }
+                }        
+            }
+            
+        }
+        #kccq_frstBody{
+            display: grid;
+            margin-top: 1rem;
+            width: 29%;  
+            #box3{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 2rem;
+                margin-top: 1rem;
+                label{
+                    font-family: futura;
+                    font-size: 1.3rem;
+                    margin-bottom: 2rem;
+                }
+                #option_kccq{
+                    label{
+                        font-size: 1rem;
+                        width: 22rem;
+                    }
+                    #circle_right{
+                        color: #836198;
+                        font-size: 1.5rem;
+                    }
+                }
+                #row_label1{ 
+                    font-family: futura-medium;
+                    font-size: 1.1rem;
+                    margin-bottom: 2rem; 
+                    color: #7e4f9b;                  
+                }
+                #name_area{
+                    label{
+                        color: #625d64;
+                        font-size: 1rem;
+                        height:0rem;
+                    }
+                    #label{
+                        color:#00000029;
+                        font-size: 0.9rem;
+                    }
+                }
+                #device_for{
+                    label{
+                        font-size: 1rem;
+                        font-family: futura-medium;
+                    }                    
+                }
+            }          
+        }
+    }  
+
+    .result-body{
+        width: 100%;
+        height:100%;
+        display: flex;
+        margin-top: 1%;
+        .block-one{
+            width:28%;
+            height: 100%;
+            margin-left: 2%;
+            .sub-block1{
+                width: 100%;
+                height:60%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                padding: 1rem;
+                
+                label{
+                    color: #7E4F9B;
+                    font-family: Futura Medium;
+                }
+                p{
+                    font-family: Futura Medium;
+                }
+                span{
+                    font-family: Futura Medium;
+                }
+                #label_dev{
+                    color:$text-dark-color;
+                    margin-top: 20px;
+                    span{
+                        color: $text-secondary-light;
+                    }
+                }
+                #detail{
+                    width: 100%;
+                    .row{
+                        width: 100%;
+                        .row-detail{
+                            width:40%;
+                            .row{
+                                width: 100%;
+                                .detail-ar{
+                                    width: 50%;
+                                    label{
+                                        font-size: 15px;
+                                        color:$text-dark-color;
+                                        font-family: Futura Medium;
+                                    }
+                                    span{
+                                        font-size: 12px;
+                                        color:$text-secondary-light;
+                                        font-family: Futura Medium;
+                                    }
+                                }
+                            }
+                        }
+                        .row-detail1{
+                            width:60%;
+                            .row{
+                                width: 100%;
+                                .detail-ar{
+                                    width: 50%;
+                                    label{
+                                        font-size: 15px;
+                                        color:$text-dark-color;
+                                        font-family: Futura Medium;
+                                    }
+                                    span{
+                                        font-size: 12px;
+                                        color:$text-secondary-light;
+                                        font-family: Futura Medium;
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .sub-block2{
+                width: 100%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 5px;
+                margin-top:2%;
+                height: 38%;
+                padding: 1rem;
+                #label_head{
+                    font-weight: bold;
+                    margin-bottom: 2rem;
+                }
+                #label_nami{
+                    margin-bottom: 1.5rem;
+                    color: $text-secondary-light;
+                    width: 95%;
+                    font-size: 15px;
+                }
+                #symb{
+                    color:$text-primary
+                }
+            }
+        }
+        .block-two{
+            width:67%;
+            margin-top: 0rem;
+            margin-left: 1%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 5px;
+            padding: 1rem;
+            .div_flx{
+                width: 100%;
+                display: flex;
+                label{
+                    font-size: 25px;
+                    font-family: Futura Heavy font;
+                    width: 85%;
+                    span{
+                        color: $text-primary;
+                    }
+                }
+                #logo{
+                    margin-left: 0%;
+                    margin-top: 0px;
+                    width: 15%;
+                }
+            }
+            label{
+                margin-top: 2rem;
+                font-size: 20px;
+                font-family: Futura Heavy font;
+                span{
+                    color: $text-primary;
+                }
+            }
+            p{
+                margin-top: 2rem;
+                font-family: futura-pt-demi;
+            }
+            #table_val{
+                width: 70%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                margin-top: 2%;
+                #row_head{
+                    background-color:#225D65E6;
+                    width: 100%;
+                    label{
+                        color: white;
+                        margin-top: 0rem;
+                        padding: 10px;
+                    }
+                }
+                #row_data{
+                    label{
+                        font-size: 16px;
+                        line-height: 1rem;
+                    }
+                }
+            }
+            #cal_ar{
+                background-image: url('../Assets/Rectangle\ 395.png');
+                width: 83%;
+                label{
+                    color: white;
+                }
+                p{
+                    padding:10px;
+                    background-color: white;
+                    width: 32%;
+                    color: #4f9b6c;
+                    margin-bottom: 4rem;
+                }
+            }
+            #grp_data{
+                width: 80%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                margin-left: 10%;
+                #sec_grp{
+                    label{
+                        font-size: 12px;
+                    }
+                }
+            }
+            #remrk_data{
+                width: 70%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 1rem;
+                textarea{
+                    width: 100%;
+                    border:none;
+                    height: 10rem;
+                }
+                button{
+                    width: 20%;
+                    margin-left:80%;
+                    color:white ;
+                    background-color: #225D65E6;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+            #scoring{
+                width:80%;
+                margin-left: 10%;
+                #collapsible{
+                    padding:10px;
+                    color: white;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    .accordion > input[type="checkbox"] {
+                        position: absolute;
+                        left: -100vw;
+                    }
+                    
+                    .accordion .content {
+                        overflow-y: hidden;
+                        height: 0;
+                        transition: height 0.3s ease;
+                        #record_data{
+                            display: flex;
+                            label{
+                                width: 70%;
+                                margin-top: -4%;
+                                margin-left:10%;
+                                font-family:futura-book;
+                                font-size: 1rem;
+                            }
+                            span{
+                                color: #333;
+                                margin-top: -2%;
+                            }
+                        }
+                        p{
+                            font-family: futura-book;
+                        }
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .content {
+                        height: auto;
+                        overflow: visible;
+                    }
+                    
+                    .accordion label {
+                        display: block;
+                        font-family: futura-demi;
+                        margin-top: 2.5rem;
+                    }
+                    body {
+                        font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+                        color: #333;
+                        font-weight: 300;
+                    }
+                    
+                    .accordion {
+                        margin-bottom: 1em;
+                        border:1px solid lightgray;
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .content {
+                        padding: 15px;
+                        border: 1px solid #e8e8e8;
+                        border-top: 0;
+                    }
+                    
+                    .accordion .handle {
+                        margin: 0;
+                        font-size: 1.125em;
+                        line-height: 1.2em;
+                        margin-top: -5%;
+                    }
+                    
+                    .accordion label {
+                        color: #333;
+                        cursor: pointer;
+                        font-weight: normal;
+                        padding: 15px;
+                    }
+                    
+                    .accordion label:hover,
+                    .accordion label:focus {
+                    }
+                    
+                    .accordion .handle label:before {
+                        font-family: 'fontawesome';
+                        content: "\f054";
+                        display: inline-block;
+                        margin-right: 10px;
+                        font-size: .58em;
+                        line-height: 1.556em;
+                        vertical-align: middle;
+                    }
+                    
+                    .accordion > input[type="checkbox"]:checked ~ .handle label:before {
+                        content: "\f078";
+                    }
+                    
+                    
+                    /*
+                    Demo purposes only
+                    */
+                    *,
+                    *:before,
+                    *:after {
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        padding: 40px;
+                    }
+                    
+                    a {
+                        color: #06c;
+                    }
+                    
+                    p {
+                        margin: 0 0 1em;
+                    }
+                    
+                    h1 {
+                        margin: 0 0 1.5em;
+                        font-weight: 600;
+                        font-size: 1.5em;
+                    }
+                    
+                    .accordion {
+                        max-width: 65em;
+                    }
+                    
+                    .accordion p:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+
+}

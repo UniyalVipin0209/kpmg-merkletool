@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164.078" height="150.066" viewBox="0 0 164.078 150.066">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.082" cy="0.158" r="1.573" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffeafe"/>
+      <stop offset="1" stop-color="#e6b7ff"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_1730" data-name="Group 1730" transform="translate(-4127.578 11483.767)">
+    <circle id="Ellipse_530" data-name="Ellipse 530" cx="75.033" cy="75.033" r="75.033" transform="translate(4141.59 -11483.767)" fill="url(#radial-gradient)"/>
+    <rect id="Rectangle_745" data-name="Rectangle 745" width="109.385" height="36.169" rx="7" transform="translate(4182.271 -11450.318)" fill="#fff"/>
+    <rect id="Rectangle_761" data-name="Rectangle 761" width="109.385" height="36.169" rx="7" transform="translate(4127.578 -11399.318)" fill="#fff"/>
+    <rect id="Rectangle_746" data-name="Rectangle 746" width="82.433" height="5.424" rx="2.712" transform="translate(4204.858 -11429.91)" fill="#886c93"/>
+    <rect id="Rectangle_760" data-name="Rectangle 760" width="82.433" height="5.424" rx="2.712" transform="translate(4134.19 -11378.91)" fill="#886c93"/>
+    <rect id="Rectangle_750" data-name="Rectangle 750" width="28.696" height="5.424" rx="2.712" transform="translate(4204.407 -11439.471)" fill="#bebebe"/>
+    <rect id="Rectangle_759" data-name="Rectangle 759" width="28.696" height="5.424" rx="2.712" transform="translate(4187.927 -11388.471)" fill="#bebebe"/>
+    <rect id="Rectangle_757" data-name="Rectangle 757" width="9.696" height="9.561" rx="4.78" transform="translate(4188.943 -11437.014)" fill="#f2ce38"/>
+    <rect id="Rectangle_758" data-name="Rectangle 758" width="9.696" height="9.561" rx="4.78" transform="translate(4220.59 -11385.759)" fill="#f2ce38"/>
+    <path id="Icon_awesome-star-of-david" data-name="Icon awesome-star-of-david" d="M10.677,6.738l1.4-2.353a.956.956,0,0,0-.842-1.437H8.421L6.948.474a.985.985,0,0,0-1.685,0L3.791,2.948H.977A.956.956,0,0,0,.134,4.385l1.4,2.353L.134,9.09a.956.956,0,0,0,.842,1.437H3.791L5.263,13a.985.985,0,0,0,1.685,0l1.473-2.474h2.814a.956.956,0,0,0,.842-1.437Zm-.336-2.316L9.82,5.3,9.3,4.422h1.042ZM8.962,6.738,7.583,9.054H4.629L3.25,6.738,4.629,4.422H7.583ZM6.106,1.94l.6,1.008h-1.2ZM1.871,4.422H2.913L2.392,5.3Zm0,4.632.521-.875.521.875Zm4.235,2.481-.6-1.008h1.2ZM9.3,9.054l.521-.875.521.875Z" transform="translate(4273.165 -11373.486)" fill="#f2ce38"/>
+    <path id="Icon_awesome-star-of-david-2" data-name="Icon awesome-star-of-david" d="M10.677,6.738l1.4-2.353a.956.956,0,0,0-.842-1.437H8.421L6.948.474a.985.985,0,0,0-1.685,0L3.791,2.948H.977A.956.956,0,0,0,.134,4.385l1.4,2.353L.134,9.09a.956.956,0,0,0,.842,1.437H3.791L5.263,13a.985.985,0,0,0,1.685,0l1.473-2.474h2.814a.956.956,0,0,0,.842-1.437Zm-.336-2.316L9.82,5.3,9.3,4.422h1.042ZM8.962,6.738,7.583,9.054H4.629L3.25,6.738,4.629,4.422H7.583ZM6.106,1.94l.6,1.008h-1.2ZM1.871,4.422H2.913L2.392,5.3Zm0,4.632.521-.875.521.875Zm4.235,2.481-.6-1.008h1.2ZM9.3,9.054l.521-.875.521.875Z" transform="translate(4144.484 -11452.946)" fill="#f5ce65"/>
+  </g>
+</svg>

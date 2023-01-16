@@ -1,0 +1,279 @@
+.doctor-dashboard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #FCFCFC;
+    
+    .dc-dash-box{
+        width: 94%;
+        height: 96%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        // background-color: aqua;
+    }
+    .dc-dash-patient{
+        width:100%;
+        height:330px;
+        background-color: #FFF;
+        box-shadow: 0px 3px 6px #0000000F;
+        border-radius: 3px;
+        position: relative;
+        padding: 0.5rem 0.5rem 1rem 1rem;
+        .dc-patient-card-title{
+            color:$text-primary;
+            font-weight: 600;
+        }
+        .dc-patient-graph-labels{
+            position: absolute;
+            right:1rem;
+            font-size: 0.8rem;
+            display: inline-flex;
+            align-items: center;
+            color:#57525A;
+            // font-family: Futura Light;
+            .dc-patient-graph-green{
+                width: 0.5rem;
+                height: 0.5rem;
+                border-radius: 100px;
+                background-color: #59A2A5;
+            }
+            .dc-patient-graph-pink{
+                width: 0.5rem;
+                height: 0.5rem;
+                border-radius: 100px;
+                background-color: #EB6AD7;
+            }
+        }
+        .dc-patient-card-graph{
+            width: 100%;
+            height: 50%;
+            margin-top: 2rem;
+            position: relative;
+        }
+    }
+    .dc-dash-analytics{
+        width:100%;
+        height:330px;
+        background-color: #FFF;
+        box-shadow: 0px 3px 6px #0000000F;
+        border-radius: 3px;
+        position: relative;
+        padding: 0.5rem 0.5rem 1rem 1rem;
+      
+      .analytics-box{
+        width:100%;
+        height:250px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        .text-futura-medium{
+            color:$text-secondary;
+            font-family: Futura Medium;
+        }
+        .analytics-title{
+            color:#7E4F9B;
+            font-size: 0.9rem;
+            font-family:Futura Medium;
+            font-weight: 590;
+        }
+        .analytics-card{
+            width: 100%;
+            height: 4rem;
+            background-color: #F5F5F5;
+            display: flex;
+            align-items: center;
+            .analytics-card-profile-pic{
+                width: 25%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+            .analytics-card-texts{
+                width: 65%;
+                .analytics-card-texts-title{
+                    font-size: 1rem;
+                    color: $text-secondary;
+                    font-family: Futura Medium;
+                }
+                .analytics-card-texts-subtitle{
+                    font-size: 0.7rem;
+                    
+                    color:#57525A;
+                    // font-family: Futura Light;
+                    
+                }
+                
+            }
+            .analytics-card-arrow{
+                width: 10%;
+            }
+        }
+        }
+    }
+    ::-webkit-scrollbar{
+        width: 10px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: #e3e2e2;
+        // linear-gradient(transparent,#CF928C);
+        border-radius: 2px;
+    }
+    .dc-dash-patient-progress{
+        width:100%;
+        height:350px;
+        background-color: #FFF;
+        box-shadow: 0px 3px 6px #0000000F;
+        border-radius: 3px;
+        
+        padding: 0.5rem 0.5rem 1rem 1rem;
+        color:$text-primary;
+        .dc-dash-patient-pg-title{
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .dc-dash-patient-pg-subtitle{
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+    }
+    .dc-dash-profile{
+        width:100%;
+        height:330px;
+        background-color: #FFF;
+        box-shadow: 0px 3px 6px #0000000F;
+        border-radius: 3px;
+        position:relative;
+        
+        padding: 0.5rem 0.5rem 1rem 1rem;
+        .edit-profile{
+            position: absolute;
+            right:1rem;
+            font-size: 0.7rem;
+            color:#7E4F9B;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .doughtnut-chart-box{
+            margin-top:1rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+           
+            .doughtnut-chart-center{
+                position:relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .doughtnut-img-center{
+                    position: absolute;
+                    width: 6.5rem;
+                    border-radius: 100px;
+                    img{
+                        width: 6.5rem;
+
+                    }
+                }
+            }
+        }
+        .dash-profile-title{
+            text-align: center;
+            font-family: Futura Medium;
+            font-size:1rem;
+        }
+        .dash-profile-subtitle{
+            text-align: center;
+            // font-family: Futura Medium;
+            font-size:0.8rem;
+            color: #57525A;
+        }
+        .dash-profile-analytics{
+            display:flex;
+            div{
+                margin-top: 1rem;
+                width: 33%;
+                text-align: center;
+                span:nth-child(1){
+                    color:#7E4F9B;
+                    font-size:1rem;
+                    font-family: futura-pt-demi;
+                }
+                .dash-pf-anly-text{
+                    color:#57525A;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+        
+    }
+    .dc-dash-guide{
+        width:100%;
+        height:350px;
+        background-color: #FFF;
+        box-shadow: 0px 3px 6px #0000000F;
+        border-radius: 3px;
+        .dc-dash-guide-banner{
+            width: 100%;
+            height: 45%;
+            background-color:#F5FFFF;
+            position: relative;
+            .guide-banner-text-box{
+                width: 50%;
+                position: absolute;
+                left: 1.5rem;
+                bottom: 1rem;
+                font-size: 0.8rem;
+                font-family: Futura Medium;
+                color:#57525A;
+
+                button{
+                    margin-top: 1rem;
+                    background-color: $background-strong-color;
+                    width: 5.8rem;
+                    height: 1.7rem;
+                    color:#fff;
+                    font-size: 0.7rem;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+            .doctor-illustrantion{
+                position: absolute;
+                right: 0rem;
+                bottom:0rem;
+                width:50%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .dc-dash-guide-banner-body{
+            width: 100%;
+            height: 55%;
+            position:relative;
+            .dc-dash-guide-body-title{
+                width:50%;
+                position:absolute;
+                top: 1rem;
+                left: 1.5rem;
+                font-size: 0.8rem;
+                font-family: Futura Medium;
+                color:#57525A;
+            }
+            .dc-dash-guide-body-subtitle{
+                width:80%;
+                position:absolute;
+                font-size: 0.7rem;
+                top: 4.7rem;
+                left: 1.5rem;
+                color:#57525A;
+            }
+        }
+    }
+}
+

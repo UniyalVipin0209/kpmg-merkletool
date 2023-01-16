@@ -1,0 +1,672 @@
+@import '../style//abstract//colors';
+@import '../style//abstract/fonts';
+@import '../style//abstract//mixin';
+@import '../style//abstract/variables';
+
+@media only screen and (min-width: 1280px){
+    .Patient-id-body{
+        width: 100%;
+        height:100%;
+        padding: 0;
+        .patient-subbody{
+            width: 100%;
+            height: 100%;
+            display:flex;
+            flex-direction: row;
+            .patient-subbody1{
+                width:65%;
+                height: 100%;
+                padding:1rem;
+                border-right: 1px solid lightgray;
+                .banner{
+                    width: 100%;
+                    height: 100%;
+                    label{
+                        color:$text-primary;
+                        height: 10%;
+                        font-family: Futura Medium;
+                        margin-top: 5%;
+                        font-size: 1.5rem;
+                        margin-left: 2rem;
+                    }
+                    img{
+                        width: 70%;
+                        height: 70%;
+                        margin-top: 3rem;
+                        margin-left: 20%;
+                    }
+                }
+            }
+            .patient-subbody2{
+                width:35%;
+                height: 100%;
+                padding:2rem;
+                .label-logo{
+                    display: flex;
+                    label{
+                        font-size: 23px;
+                        font-family: Futura Heavy font;
+                        width:80%
+                    }
+                    img{
+                        width: 10%;
+                    }
+                }
+                .section{
+                    margin-top: 20%;
+                    .row{
+                        cursor: pointer;
+                        width:90%;
+                        border:2px solid lightgray;
+                        border-radius: 5px;
+                        p{
+                            padding: 20px;
+                            color: $text-dark-color;
+                            font-family: futura-pt-demi;
+                            font-size: 18px;
+                        }
+                    }
+                    .row:hover{
+                        cursor: pointer;
+                        width:90%;
+                        background-color: #836198;
+                        border:2px solid lightgray;
+                        border-radius: 5px;
+                        p{
+                            padding: 20px;
+                            color: white;
+                            font-family: futura-pt-demi;
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .align-logo-end{
+                    p{
+                        color: $text-dark-color;
+                        font-family: futura-pt-demi;
+                        margin-right: 1.2rem;
+                        span{
+                            color: $text-primary;
+                        }
+                    }
+                    button{
+                        margin-right: 1.2rem;                        
+                    }
+                }
+                p{
+                    color:$text-secondary-light;
+                    font-family: Futura Book font;
+                }
+                .align-logo-end{
+                    text-align: right;
+                    margin-top: 6%;
+                    button{
+                        padding:5px 40px;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        background-color: $background-strong-color;
+                        color: white;
+                        font-weight: bold;
+                        border: none;
+                        margin-top: 5%;
+                        border-radius: 5px;
+                    }
+                }
+                .form-heading{
+                    margin-top: 5%;
+                    p{
+                        color:#57525A;
+                        font-family: Futura Heavy font;
+                        font-size: 1.5rem;
+                        line-height: 2.1rem;
+                        margin-top: 10px;
+                        span{
+                            color:$text-primary;
+                        }
+                    }
+                    h6{
+                        color:$text-secondary-light;
+                        font-size: 1rem;
+                        margin-top: 0.5rem;
+                    }
+                }  
+                .row{
+                    margin-left: 10px;
+                    margin-top: 20px;
+                    .input-area{
+                        margin-top: 1rem;
+                        input{
+                            margin-top: 10px;
+                        }
+                    }
+                    .label-area{
+                        margin-top: 0rem;
+                        font-weight: bold;
+                        font-family: Futura Heavy font;
+                    }
+                }  
+                .input-box-patient{
+                    margin-top: 2rem;
+                    margin-left: 1rem;
+                    label{
+                        font-family: futura-pt-demi;
+                        margin-bottom: 1rem;
+                        font-size: 20px;
+                    }
+                    input{
+                        border:1px solid lightgray;
+                        height: 40px;
+                        width: 70%;
+                        margin-bottom: 1rem;
+                        border-radius: 3px;
+                        padding: 10px;
+                        color:$text-secondary-medium
+                    }
+                    p{
+                        font-family: futura-pt-demi;
+                        span{
+                            color: $text-primary;
+                            cursor: pointer;
+                        }
+                    }
+                }           
+            }
+        }
+    }
+}
+@media only screen and (min-width: 991px) and (max-width: 1279px){
+    .Patient-id-body{
+        width: 100%;
+        height:100;
+        padding: 0;
+        .patient-subbody{
+            width: 100%;
+            height: 100%;
+            display:flex;
+            flex-direction: row;
+            .patient-subbody1{
+                width:65%;
+                height: 100%;
+                padding:1rem;
+                border-right: 1px solid lightgray;
+                .banner{
+                    width: 100%;
+                    label{
+                        color:$text-primary;
+                        font-family: Futura Medium;
+                        margin-top: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 2rem;
+                    }
+                    .banner-img{
+                        img{
+                            width: 70%;
+                            margin-top: 3rem;
+                            margin-left: 20%;
+                        }
+                    }
+                }
+            }
+            .patient-subbody2{
+                width:35%;
+                height: 100%;
+                padding:2rem;
+                .label-logo{
+                    display: flex;
+                    label{
+                        font-size: 23px;
+                        font-family: Futura Heavy font;
+                        width:80%
+                    }
+                    img{
+                        width: 10%;
+                    }
+                }
+                .section{
+                    margin-top: 20%;
+                    .row{
+                        cursor: pointer;
+                        width:85%;
+                        border:2px solid lightgray;
+                        border-radius: 5px;
+                        p{
+                            padding: 20px;
+                            color: $text-dark-color;
+                            font-family: futura-pt-demi;
+                            font-size: 18px;
+                        }
+                    }
+                    .row:hover{
+                        cursor: pointer;
+                        width:85%;
+                        background-color: #836198;
+                        border:2px solid lightgray;
+                        border-radius: 5px;
+                        p{
+                            padding: 20px;
+                            color: white;
+                            font-family: futura-pt-demi;
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .align-logo-end{
+                    p{
+                        color: $text-dark-color;
+                        font-family: futura-pt-demi;
+                        margin-right: 1.2rem;
+                        span{
+                            color: $text-primary;
+                        }
+                    }
+                    button{
+                        margin-right: 1.2rem;                        
+                    }
+                }
+                .align-logo-end{
+                    text-align: right;
+                    margin-top: 6%;
+                    button{
+                        padding:5px 40px;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        background-color: $background-strong-color;
+                        color: white;
+                        font-weight: bold;
+                        border: none;
+                        margin-top: 5%;
+                        border-radius: 5px;
+                    }
+                }
+                .form-heading{
+                    margin-top: 15%;
+                    p{
+                        color:#57525A;
+                        font-family: Futura Heavy font;
+                        font-size: 1.5rem;
+                        line-height: 2.1rem;
+                        margin-top: 10px;
+                        span{
+                            color:$text-primary;
+                        }
+                    }
+                    h6{
+                        color:$text-secondary-light;
+                        font-size: 1rem;
+                        margin-top: 0.5rem;
+                    }
+                }  
+                .row{
+                    margin-left: 10px;
+                    margin-top: 20px;
+                    .input-area{
+                        margin-top: 1rem;
+                        input{
+                            margin-top: 10px;
+                        }
+                    }
+                    .label-area{
+                        margin-top: 2rem;
+                        font-weight: bold;
+                        font-family: Futura Heavy font;
+                    }
+                }  
+                .input-box-patient{
+                    margin-top: 2rem;
+                    margin-left: 1rem;
+                    label{
+                        font-family: futura-pt-demi;
+                        margin-bottom: 1rem;
+                        font-size: 20px;
+                    }
+                    input{
+                        border:1px solid lightgray;
+                        height: 40px;
+                        width: 70%;
+                        margin-bottom: 1rem;
+                        border-radius: 3px;
+                        padding: 10px;
+                        color:$text-secondary-medium
+                    }
+                    p{
+                        font-family: futura-pt-demi;
+                        span{
+                            color: $text-primary;
+                            cursor: pointer;
+                        }
+                    }
+                }           
+            }
+        }
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 990px){
+    .Patient-id-body{
+        width: 100%;
+        height:100;
+        padding: 0;
+        .patient-subbody{
+            width: 100%;
+            height: 100%;
+            display:flex;
+            flex-direction: row;
+            .patient-subbody1{
+                width:65%;
+                height: 100%;
+                padding:1rem;
+                border-right: 1px solid lightgray;
+                .banner{
+                    width: 100%;
+                    label{
+                        color:$text-primary;
+                        font-family: Futura Medium;
+                        margin-top: 3rem;
+                        font-size: 1.5rem;
+                        margin-left: 2rem;
+                    }
+                    .banner-img{
+                        img{
+                            width: 70%;
+                            margin-top: 3rem;
+                            margin-left: 20%;
+                        }
+                    }
+                }
+            }
+            .patient-subbody2{
+                width:35%;
+                height: 100%;
+                padding:2rem;
+                .label-logo{
+                    display: flex;
+                    label{
+                        font-size: 23px;
+                        font-family: Futura Heavy font;
+                        width:80%
+                    }
+                    img{
+                        width: 10%;
+                    }
+                }
+                .section{
+                    margin-top: 20%;
+                    .row{
+                        cursor: pointer;
+                        width:85%;
+                        border:2px solid lightgray;
+                        border-radius: 5px;
+                        p{
+                            padding: 20px;
+                            color: $text-dark-color;
+                            font-family: futura-pt-demi;
+                            font-size: 18px;
+                        }
+                    }
+                    .row:hover{
+                        cursor: pointer;
+                        width:85%;
+                        background-color: #836198;
+                        border:2px solid lightgray;
+                        border-radius: 5px;
+                        p{
+                            padding: 20px;
+                            color: white;
+                            font-family: futura-pt-demi;
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .align-logo-end{
+                    p{
+                        color: $text-dark-color;
+                        font-family: futura-pt-demi;
+                        margin-right: 1.2rem;
+                        span{
+                            color: $text-primary;
+                        }
+                    }
+                    button{
+                        margin-right: 1.2rem;                        
+                    }
+                }
+                .align-logo-end{
+                    text-align: right;
+                    margin-top: 6%;
+                    button{
+                        padding:5px 40px;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        background-color: $background-strong-color;
+                        color: white;
+                        font-weight: bold;
+                        border: none;
+                        margin-top: 5%;
+                        border-radius: 5px;
+                    }
+                }
+                .form-heading{
+                    margin-top: 15%;
+                    p{
+                        color:#57525A;
+                        font-family: Futura Heavy font;
+                        font-size: 1.5rem;
+                        line-height: 2.1rem;
+                        margin-top: 10px;
+                        span{
+                            color:$text-primary;
+                        }
+                    }
+                    h6{
+                        color:$text-secondary-light;
+                        font-size: 1rem;
+                        margin-top: 0.5rem;
+                    }
+                }  
+                .row{
+                    margin-left: 10px;
+                    margin-top: 20px;
+                    .input-area{
+                        margin-top: 1rem;
+                        input{
+                            margin-top: 10px;
+                        }
+                    }
+                    .label-area{
+                        margin-top: 2rem;
+                        font-weight: bold;
+                        font-family: Futura Heavy font;
+                    }
+                }  
+                .input-box-patient{
+                    margin-top: 2rem;
+                    margin-left: 1rem;
+                    label{
+                        font-family: futura-pt-demi;
+                        margin-bottom: 1rem;
+                        font-size: 20px;
+                    }
+                    input{
+                        border:1px solid lightgray;
+                        height: 40px;
+                        width: 70%;
+                        margin-bottom: 1rem;
+                        border-radius: 3px;
+                    }
+                    p{
+                        font-family: futura-pt-demi;
+                        span{
+                            color: $text-primary;
+                            cursor: pointer;
+                        }
+                    }
+                }           
+            }
+        }
+    }
+}
+@media only screen and (min-width: 330px) and (max-width: 768px){
+    .Patient-id-body{
+        width: 100%;
+        height:100;
+        padding: 0;
+        .patient-subbody{
+            width: 100%;
+            height: 100%;
+            display:grid;
+            flex-direction: row;
+            .patient-subbody1{
+                width:100%;
+                height: 100%;
+                padding:1rem;
+                border-right: 1px solid lightgray;
+                .banner{
+                    width: 100%;
+                    label{
+                        color:$text-primary;
+                        font-family: Futura Medium;
+                        margin-top: 0rem;
+                        font-size: 0.9rem;
+                        margin-left: 2rem;
+                    }
+                    img{
+                        width: 100%;
+                    }
+                    .banner-img{
+                        img{
+                            width: 80%;
+                            margin-top: 3rem;
+                            margin-left: 10%;
+                        }
+                    }
+                }
+            }
+            .patient-subbody2{
+                width:100%;
+                height: 100%;
+                padding:2rem;
+                .label-logo{
+                    display: flex;
+                    label{
+                        font-size: 23px;
+                        font-family: Futura Heavy font;
+                        width:80%
+                    }
+                    img{
+                        width: 10%;
+                    }
+                }
+                .section{
+                    margin-top: 20%;
+                    .row{
+                        cursor: pointer;
+                        width:100%;
+                        border:2px solid lightgray;
+                        border-radius: 5px;
+                        p{
+                            padding: 20px;
+                            color: $text-dark-color;
+                            font-family: futura-pt-demi;
+                            font-size: 18px;
+                        }
+                    }
+                    .row:hover{
+                        cursor: pointer;
+                        width:85%;
+                        background-color: #836198;
+                        border:2px solid lightgray;
+                        border-radius: 5px;
+                        p{
+                            padding: 20px;
+                            color: white;
+                            font-family: futura-pt-demi;
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .align-logo-end{
+                    p{
+                        color: $text-dark-color;
+                        font-family: futura-pt-demi;
+                        margin-right: 1.2rem;
+                        span{
+                            color: $text-primary;
+                        }
+                    }
+                    button{
+                        margin-right: 1.2rem;                        
+                    }
+                }
+                .align-logo-end{
+                    text-align: right;
+                    margin-top: 6%;
+                    button{
+                        padding:5px 40px;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        background-color: $background-strong-color;
+                        color: white;
+                        font-weight: bold;
+                        border: none;
+                        margin-top: 5%;
+                        border-radius: 5px;
+                    }
+                }
+                .form-heading{
+                    margin-top: 15%;
+                    p{
+                        color:#57525A;
+                        font-family: Futura Heavy font;
+                        font-size: 1.5rem;
+                        line-height: 2.1rem;
+                        margin-top: -14%;
+                        span{
+                            color:$text-primary;
+                        }
+                    }
+                    h6{
+                        color:$text-secondary-light;
+                        font-size: 1rem;
+                        margin-top: 0.5rem;
+                    }
+                }  
+                .row{
+                    margin-left: 10px;
+                    margin-top: 20px;
+                    .input-area{
+                        margin-top: 1rem;
+                        input{
+                            margin-top: 10px;
+                        }
+                    }
+                    .label-area{
+                        margin-top: 2rem;
+                        font-weight: bold;
+                        font-family: Futura Heavy font;
+                    }
+                }  
+                .input-box-patient{
+                    margin-top: 2rem;
+                    margin-left: 1rem;
+                    label{
+                        font-family: futura-pt-demi;
+                        margin-bottom: 1rem;
+                        font-size: 20px;
+                    }
+                    input{
+                        border:1px solid lightgray;
+                        height: 40px;
+                        width: 90%;
+                        margin-bottom: 1rem;
+                        border-radius: 3px;
+                    }
+                    p{
+                        font-family: futura-pt-demi;
+                        span{
+                            color: $text-primary;
+                            cursor: pointer;
+                        }
+                    }
+                }           
+            }
+        }
+    }
+}
+
+
+

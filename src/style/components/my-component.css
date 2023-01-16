@@ -1,0 +1,95 @@
+.ant-menu {
+    background-color: none!important;
+    background: none!important;
+    /* color: gray!important; */
+    color: #10243c!important;
+
+}
+.ant-menu-horizontal
+{
+    border-bottom: none!important;
+}
+.ant-collapse-header-text {
+    font-weight: bold !important;
+    color: blueviolet !important;
+    margin-left: 40px!important;
+}
+
+.upload-section-csv, .generate-merkle-tree-header{
+                  position: absolute;
+                  left: 1rem;
+                  top: 1rem;
+                  color: #fff!important;
+
+}
+.collapse-panel {
+    max-width: 50vw;
+    width: 60%;
+    max-height: 52vh;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    border-radius: 5px!important;
+    border: 5px solid white;
+    padding: 3px;
+    margin-top: 8px;
+    overflow-y: auto;    
+}
+
+.divRootHash{
+    max-width: 50vw;
+    width: 60%;
+    max-height: 12vh;
+    padding: 3px;
+    margin-top: 8px;
+    border: 1px dashed white;
+}
+.panelOuter{
+    overflow-y: scroll;
+    max-height: 180px;
+    height: 100%;   
+}
+
+.panelOuter>p{
+    margin-left: 35px;
+    padding-left: 10px;
+    font-style: normal;
+    font-weight:100px;
+    margin-bottom: .6rem!important;
+}
+
+.textbox, .textArea{
+    
+        border-Left: "none";
+        border-Right: "none";
+        border-Top: "none";
+        border-Bottom: "1px solid #fff";
+      
+}
+.textbox{
+    height:40px;
+}
+.textArea{
+    min-height: 300px;
+}
+.prevPageLink{
+                 
+                  cursor: pointer;
+                  margin-Top: 1rem;
+                  background: white!important;
+                  border-Radius: 100px;
+                  display: flex;
+                  justify-Content: center;
+                  align-Items: center;
+                  width: 1.5rem;
+                  height: 1.5rem;
+                  margin-Left: 2.11rem!important;
+                  
+}
+.marginleft{
+    margin-Left: 2.11rem!important;
+}
+.invalid-message{
+    font-style: normal;
+    font-size: 15px;
+    color:aliceblue;
+}

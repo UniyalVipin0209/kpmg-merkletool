@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="997.327" height="716.045" viewBox="0 0 997.327 716.045">
+  <defs>
+    <filter id="Rectangle_372" x="545.791" y="0" width="450.246" height="716.044" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_373" x="0" y="294.186" width="563.791" height="421.859" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_374" x="545.791" y="96.771" width="450.246" height="216.704" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_390" x="547.081" y="630.949" width="156.061" height="85.095" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_391" x="685.142" y="630.949" width="166.383" height="85.095" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_392" x="833.524" y="630.949" width="163.802" height="85.095" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1444" data-name="Group 1444" transform="translate(6173 -21042)">
+    <g transform="matrix(1, 0, 0, 1, -6173, 21042)" filter="url(#Rectangle_372)">
+      <rect id="Rectangle_372-2" data-name="Rectangle 372" width="432.246" height="698.044" transform="translate(554.79 6)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -6173, 21042)" filter="url(#Rectangle_373)">
+      <rect id="Rectangle_373-2" data-name="Rectangle 373" width="545.791" height="403.859" transform="translate(9 300.19)" fill="#fff"/>
+    </g>
+    <text id="Persistent_albuminuria_categories_Description_and_range." data-name="Persistent albuminuria categories
+         Description and range." transform="translate(-5547.244 21085.064)" fill="#786584" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Persistent albuminuria categories</tspan><tspan x="0" y="25" xml:space="preserve">         Description and range.</tspan></text>
+    <text id="GFR_categories_ml_min_1.73m2_Description_and_range" data-name="GFR categories (ml/min/1.73m2)
+       Description and range" transform="translate(-6123.065 21690.563) rotate(-90)" fill="#786584" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">GFR categories (ml/min/1.73m2)</tspan><tspan x="0" y="25" xml:space="preserve">       Description and range</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, -6173, 21042)" filter="url(#Rectangle_374)">
+      <g id="Rectangle_374-2" data-name="Rectangle 374" transform="translate(554.79 102.77)" fill="#fff" stroke="#f0f0f0" stroke-width="1">
+        <rect width="432.246" height="198.704" stroke="none"/>
+        <rect x="0.5" y="0.5" width="431.246" height="197.704" fill="none"/>
+      </g>
+    </g>
+    <line id="Line_314" data-name="Line 314" y2="197.414" transform="translate(-5479.504 21144.771)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <line id="Line_318" data-name="Line 318" y2="404.504" transform="translate(-5714.335 21342.186)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <line id="Line_319" data-name="Line 319" y2="404.504" transform="translate(-5993.037 21342.186)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <line id="Line_325" data-name="Line 325" y2="404.504" transform="translate(-6074.97 21342.186)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <line id="Line_316" data-name="Line 316" x2="432" transform="translate(-5618 21212.5)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <line id="Line_320" data-name="Line 320" x2="456.761" transform="translate(-6074.97 21410.57)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <line id="Line_321" data-name="Line 321" x2="456.761" transform="translate(-6074.97 21477.664)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <line id="Line_322" data-name="Line 322" x2="456.761" transform="translate(-6074.97 21544.76)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <line id="Line_323" data-name="Line 323" x2="456.761" transform="translate(-6074.97 21611.855)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <line id="Line_324" data-name="Line 324" x2="456.761" transform="translate(-6073.68 21673.789)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <line id="Line_317" data-name="Line 317" x2="432.246" transform="translate(-5617.564 21282.188)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <line id="Line_315" data-name="Line 315" y2="197.414" transform="translate(-5331.121 21146.063)" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    <text id="A1" transform="translate(-5561.437 21184.416)" fill="#404040" font-size="19" font-family="FuturaPT-Medium, Futura PT" font-weight="500"><tspan x="0" y="0">A1</tspan></text>
+    <text id="G1" transform="translate(-6047.875 21385.701)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">G1</tspan></text>
+    <text id="_90" data-name="&gt; 90" transform="translate(-5686.594 21385.701)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">&gt; 90</tspan></text>
+    <text id="_60-89" data-name="60-89" transform="translate(-5689.175 21450.215)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">60-89</tspan></text>
+    <text id="_45-59" data-name="45-59" transform="translate(-5689.175 21517.309)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">45-59</tspan></text>
+    <text id="_30-44" data-name="30-44" transform="translate(-5689.175 21586.984)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">30-44</tspan></text>
+    <text id="_15-29" data-name="15-29" transform="translate(-5689.175 21648.918)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">15-29</tspan></text>
+    <text id="_15" data-name="&lt;15" transform="translate(-5684.014 21716.014)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">&lt;15</tspan></text>
+    <text id="_" transform="translate(-5686.594 21386.99)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">_</tspan></text>
+    <text id="G2" transform="translate(-6047.875 21452.795)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">G2</tspan></text>
+    <text id="G3a" transform="translate(-6054.326 21519.891)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">G3a</tspan></text>
+    <text id="G3b" transform="translate(-6054.326 21586.984)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">G3b</tspan></text>
+    <text id="G4" transform="translate(-6047.875 21654.08)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">G4</tspan></text>
+    <text id="G5" transform="translate(-6047.875 21727.627)" fill="#404040" font-size="19" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">G5</tspan></text>
+    <text id="Normal_or_High" data-name="Normal or  High" transform="translate(-5936.91 21383.701)" fill="#8e8e8e" font-size="17" font-family="FuturaPT-Book, Futura PT"><tspan x="0" y="0" xml:space="preserve">Normal or  High</tspan></text>
+    <text id="Mildly_Decreased" data-name="Mildly Decreased" transform="translate(-5936.91 21453.086)" fill="#8e8e8e" font-size="18" font-family="FuturaPT-Book, Futura PT"><tspan x="0" y="0">Mildly Decreased</tspan></text>
+    <text id="Mildly_to_moderately_decreased" data-name="Mildly to moderately decreased" transform="translate(-5969.167 21520.18)" fill="#8e8e8e" font-size="18" font-family="FuturaPT-Book, Futura PT"><tspan x="0" y="0">Mildly to moderately decreased</tspan></text>
+    <text id="Moderately_to_mildly_decreased" data-name="Moderately to mildly decreased" transform="translate(-5969.167 21587.275)" fill="#8e8e8e" font-size="18" font-family="FuturaPT-Book, Futura PT"><tspan x="0" y="0">Moderately to mildly decreased</tspan></text>
+    <text id="Severely_decreased_" data-name="Severely decreased " transform="translate(-5933.039 21648.209)" fill="#8e8e8e" font-size="17" font-family="FuturaPT-Book, Futura PT"><tspan x="0" y="0">Severely decreased </tspan></text>
+    <text id="Kidney_Failure" data-name="Kidney Failure" transform="translate(-5933.039 21716.305)" fill="#8e8e8e" font-size="18" font-family="FuturaPT-Book, Futura PT"><tspan x="0" y="0">Kidney Failure</tspan></text>
+    <text id="_30_mg_g" data-name="&lt; 30 mg/g" transform="translate(-5591.113 21302.992)" fill="#404040" font-size="15" font-family="FuturaPT-Medium, Futura PT" font-weight="500"><tspan x="0" y="0">&lt; 30 mg/g</tspan></text>
+    <text id="_30-300_mg_g" data-name="30-300 mg/g" transform="translate(-5454.343 21302.992)" fill="#404040" font-size="15" font-family="FuturaPT-Medium, Futura PT" font-weight="500"><tspan x="0" y="0">30-300 mg/g</tspan></text>
+    <text id="_300_mg_g" data-name="&gt; 300 mg/g" transform="translate(-5305.96 21302.992)" fill="#404040" font-size="15" font-family="FuturaPT-Medium, Futura PT" font-weight="500"><tspan x="0" y="0">&gt; 300 mg/g</tspan></text>
+    <text id="_3_mg_mmol" data-name="&lt; 3 mg/mmol" transform="translate(-5591.113 21328.799)" fill="#404040" font-size="15" font-family="FuturaPT-Medium, Futura PT" font-weight="500"><tspan x="0" y="0">&lt; 3 mg/mmol</tspan></text>
+    <text id="_3-30_mg_mmol" data-name="3-30 mg/mmol" transform="translate(-5454.343 21328.799)" fill="#404040" font-size="15" font-family="FuturaPT-Medium, Futura PT" font-weight="500"><tspan x="0" y="0">3-30 mg/mmol</tspan></text>
+    <text id="_30_mg_mmol" data-name="&gt; 30 mg/mmol" transform="translate(-5305.96 21328.799)" fill="#404040" font-size="15" font-family="FuturaPT-Medium, Futura PT" font-weight="500"><tspan x="0" y="0">&gt; 30 mg/mmol</tspan></text>
+    <text id="Moderately_Increased" data-name="Moderately 
+Increased" transform="translate(-5445.311 21242.77)" fill="#8e8e8e" font-size="18" font-family="FuturaPT-Book, Futura PT"><tspan x="0" y="0">Moderately </tspan><tspan x="0" y="23">Increased</tspan></text>
+    <text id="_Normally_to_mildly_increased" data-name="    Normally to 
+mildly increased" transform="translate(-5611.758 21238.898)" fill="#8e8e8e" font-size="18" font-family="FuturaPT-Book, Futura PT"><tspan x="0" y="0" xml:space="preserve">    Normally to </tspan><tspan x="0" y="23">mildly increased</tspan></text>
+    <text id="_Severely_Increased" data-name=" Severely 
+Increased" transform="translate(-5299.509 21242.77)" fill="#8e8e8e" font-size="18" font-family="FuturaPT-Book, Futura PT"><tspan x="0" y="0" xml:space="preserve"> Severely </tspan><tspan x="0" y="23">Increased</tspan></text>
+    <text id="A2" transform="translate(-5413.054 21184.416)" fill="#404040" font-size="19" font-family="FuturaPT-Medium, Futura PT" font-weight="500"><tspan x="0" y="0">A2</tspan></text>
+    <text id="A3" transform="translate(-5273.703 21184.416)" fill="#404040" font-size="19" font-family="FuturaPT-Medium, Futura PT" font-weight="500"><tspan x="0" y="0">A3</tspan></text>
+    <rect id="Rectangle_375" data-name="Rectangle 375" width="138.061" height="67.095" transform="translate(-5616.919 21343.475)" fill="#5d9550"/>
+    <rect id="Rectangle_378" data-name="Rectangle 378" width="138.061" height="67.095" transform="translate(-5616.919 21410.57)" fill="#5d9550"/>
+    <rect id="Rectangle_381" data-name="Rectangle 381" width="138.061" height="67.095" transform="translate(-5616.919 21477.664)" fill="#e8d56a"/>
+    <rect id="Rectangle_384" data-name="Rectangle 384" width="138.061" height="67.095" transform="translate(-5616.919 21544.76)" fill="#f0975f"/>
+    <rect id="Rectangle_387" data-name="Rectangle 387" width="138.061" height="67.095" transform="translate(-5616.919 21611.855)" fill="#cb5858"/>
+    <g transform="matrix(1, 0, 0, 1, -6173, 21042)" filter="url(#Rectangle_390)">
+      <rect id="Rectangle_390-2" data-name="Rectangle 390" width="138.061" height="67.095" transform="translate(556.08 636.95)" fill="#cb5858"/>
+    </g>
+    <rect id="Rectangle_376" data-name="Rectangle 376" width="148.383" height="67.095" transform="translate(-5478.858 21343.475)" fill="#e8d56a"/>
+    <rect id="Rectangle_379" data-name="Rectangle 379" width="148.383" height="67.095" transform="translate(-5478.858 21410.57)" fill="#e8d56a"/>
+    <rect id="Rectangle_382" data-name="Rectangle 382" width="148.383" height="67.095" transform="translate(-5478.858 21477.664)" fill="#f0975f"/>
+    <rect id="Rectangle_385" data-name="Rectangle 385" width="148.383" height="67.095" transform="translate(-5478.858 21544.76)" fill="#cb5858"/>
+    <rect id="Rectangle_388" data-name="Rectangle 388" width="148.383" height="67.095" transform="translate(-5478.858 21611.855)" fill="#cb5858"/>
+    <g transform="matrix(1, 0, 0, 1, -6173, 21042)" filter="url(#Rectangle_391)">
+      <rect id="Rectangle_391-2" data-name="Rectangle 391" width="148.383" height="67.095" transform="translate(694.14 636.95)" fill="#cb5858"/>
+    </g>
+    <rect id="Rectangle_377" data-name="Rectangle 377" width="145.802" height="67.095" transform="translate(-5330.476 21343.475)" fill="#f0975f"/>
+    <rect id="Rectangle_380" data-name="Rectangle 380" width="145.802" height="67.095" transform="translate(-5330.476 21410.57)" fill="#f0975f"/>
+    <rect id="Rectangle_383" data-name="Rectangle 383" width="145.802" height="67.095" transform="translate(-5330.476 21477.664)" fill="#cb5858"/>
+    <rect id="Rectangle_386" data-name="Rectangle 386" width="145.802" height="67.095" transform="translate(-5330.476 21544.76)" fill="#cb5858"/>
+    <rect id="Rectangle_389" data-name="Rectangle 389" width="145.802" height="67.095" transform="translate(-5330.476 21611.855)" fill="#cb5858"/>
+    <g transform="matrix(1, 0, 0, 1, -6173, 21042)" filter="url(#Rectangle_392)">
+      <rect id="Rectangle_392-2" data-name="Rectangle 392" width="145.802" height="67.095" transform="translate(842.52 636.95)" fill="#cb5858"/>
+    </g>
+    <text id="Monitor_1X_Year" data-name="Monitor 1X / Year" transform="translate(-5599.389 21384.99)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 1X / Year</tspan></text>
+    <text id="Monitor_1X_Year-2" data-name="Monitor 1X / Year" transform="translate(-5599.389 21448.215)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 1X / Year</tspan></text>
+    <text id="Monitor_1X_Year-3" data-name="Monitor 1X / Year" transform="translate(-5599.389 21515.711)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 1X / Year</tspan></text>
+    <text id="Monitor_1X_Year-4" data-name="Monitor 1X / Year" transform="translate(-5456.167 21448.215)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 1X / Year</tspan></text>
+    <text id="Monitor_2X_Year" data-name="Monitor 2X / Year" transform="translate(-5456.167 21515.711)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 2X / Year</tspan></text>
+    <text id="Monitor_3X_Year" data-name="Monitor 3X / Year" transform="translate(-5305.96 21515.711)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 3X / Year</tspan></text>
+    <text id="Monitor_3X_Year-2" data-name="Monitor 3X / Year" transform="translate(-5458.343 21584.984)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 3X / Year</tspan></text>
+    <text id="Monitor_3X_Year-3" data-name="Monitor 3X / Year" transform="translate(-5454.603 21650.918)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 3X / Year</tspan></text>
+    <text id="Monitor_3X_Year-4" data-name="Monitor 3X / Year" transform="translate(-5305.96 21650.918)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 3X / Year</tspan></text>
+    <text id="Monitor_2X_Year-2" data-name="Monitor 2X / Year" transform="translate(-5301.96 21714.014)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 2X / Year</tspan></text>
+    <text id="Monitor_3X_Year-5" data-name="Monitor 3X / Year" transform="translate(-5599.389 21650.918)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 3X / Year</tspan></text>
+    <text id="Monitor_4X_Year" data-name="Monitor &gt;4X / Year" transform="translate(-5601.389 21714.014)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor &gt;4X / Year</tspan></text>
+    <text id="Monitor_4X_Year-2" data-name="Monitor &gt;4X / Year" transform="translate(-5458.343 21714.014)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor &gt;4X / Year</tspan></text>
+    <text id="Monitor_3X_Year-6" data-name="Monitor 3X / Year" transform="translate(-5305.96 21584.984)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 3X / Year</tspan></text>
+    <text id="Monitor_2X_Year-3" data-name="Monitor 2X / Year" transform="translate(-5599.389 21584.984)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 2X / Year</tspan></text>
+    <text id="Monitor_1X_Year-5" data-name="Monitor 1X / Year" transform="translate(-5456.167 21384.99)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 1X / Year</tspan></text>
+    <text id="Monitor_2X_Year-4" data-name="Monitor 2X / Year" transform="translate(-5305.96 21384.99)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 2X / Year</tspan></text>
+    <text id="Monitor_2X_Year-5" data-name="Monitor 2X / Year" transform="translate(-5305.96 21448.215)" fill="#fff" font-size="13" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="0" y="0">Monitor 2X / Year</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+@media screen and (max-width: 767px) {
+    .ctn-preloader .animation-preloader .spinner {
+      height: 8em;
+      width: 8em;
+    }
+    .ctn-preloader .animation-preloader .txt-loading {
+      font: bold 3.5em "Poppins", sans-serif;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .ctn-preloader .animation-preloader .spinner {
+      height: 7em;
+      width: 7em;
+    }
+    .ctn-preloader .animation-preloader .txt-loading {
+      font: bold 2em "Poppins", sans-serif;
+    }
+  }
+
+  @keyframes spinner {
+    to {
+      -webkit-transform: rotateZ(360deg);
+      transform: rotateZ(360deg);
+    }
+  }
+
+@-webkit-keyframes letters-loading {
+  0%,
+  75%,
+  100% {
+    opacity: 0;
+    -webkit-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+  }
+  25%,
+  50% {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes letters-loading {
+  0%,
+  75%,
+  100% {
+    opacity: 0;
+    -webkit-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+  }
+  25%,
+  50% {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+
+

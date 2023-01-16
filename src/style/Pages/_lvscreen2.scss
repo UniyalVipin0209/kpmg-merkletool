@@ -1,0 +1,1213 @@
+@import '../abstract/colors';
+@import '../abstract/fonts';
+@import '../abstract/mixin';
+@import '../abstract/variables';
+
+@media only screen and (min-width: 1280px){
+    .lv-ejection-body{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        display: flex;
+        .block-one{ 
+            width:30%;
+            .row{
+                width: 100%;
+                .box-one{
+                    width: 100%;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 20px;
+                    border-radius: 5px;
+                    label{
+                        color:$text-primary;
+                        font-family: Futura Medium;
+                    }
+                    .patient-addr-label{
+                        color: $text-secondary-light;
+                        font-size:0.8rem;
+                    }
+                    .patient-name-label{
+                        color:$text-secondary;
+                        font-size: 1.2rem;
+                        span{
+                            color:$text-secondary-light;
+                            font-size: 1rem;
+                        }
+                    }
+                    .detail-block-row{
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        .detail-col-one{
+                            width: 50%;
+                            margin-top: 1rem;
+                            margin-bottom: 1rem;
+                            .patient-name-label1{
+                                color:$text-secondary;
+                                font-size: 1.2rem;
+                                width: 50%;
+                                font-size: 0.8rem;
+                            }
+                            .patient-name-label2{
+                                color:$text-secondary-light;
+                                font-size: 1rem;
+                                width: 50%;
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                    .second-block-align{
+                        text-align: right;
+                        button{
+                            padding: 5px 10px;
+                            background-color: $text-primary;
+                            color: white;
+                            border: none;
+                            border-radius: 3px;
+                            margin-bottom: 5px;
+                            margin-right: 5px;
+                        }
+                    }
+                    .second-block-box{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        margin-bottom: 2%;
+                        width: 98%;
+                        margin-left: 1%;
+                        .background-green-area{
+                            width: 100%;
+                            background-color: #E0E8C6;
+                            padding:0.5rem;
+                            p{
+                                font-family: futura-pt-demi;
+                                color:$text-dark-color;
+                            }
+                        }
+                        .second-block-head{
+                            color:$text-red-color;
+                            font-family: Futura Medium;
+                            width: 96%;
+                            margin-left: 2%;
+                        }
+                        p{
+                            width: 96%;
+                            margin-left: 2%;
+                            color:$text-secondary-light;
+                            font-size: 0.8rem;
+                            margin-top: 0.5rem;
+                            font-family: Futura Book font;
+                        }
+                    }
+                }
+                .box-two{
+                    width: 100%;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 20px;
+                    margin-top: 2%;
+                    label{
+                        font-family: futura;
+                        font-size: 1.3rem;
+                        margin-bottom: 2rem;
+                    }
+                    #box1_sub{
+                        display: flex;
+                        margin-top: 0.2rem;
+                        label{
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 1rem;
+                            color: #838284;
+                            margin-bottom: 1rem;
+                        }
+                        #circle_right{
+                            color:#836198;
+                            font-size: 1.2rem;
+                        }
+                    }
+                    #background{
+                        display: grid;
+                        background-color: #F5FFFF;
+                        padding: 1rem;
+                        
+                        #being_{
+                            display: flex;
+                            #docimg{
+                                width: 115%;
+                            }
+                            div{
+                                width: 9rem;
+                            }
+                            #cardio_area{
+                                label{
+                                    font-family: futura-book;
+                                    font-weight: bold;
+                                    font-size: 1.1rem;
+                                }
+                                button{
+                                    padding: 0.5rem 1rem;
+                                    background-color: #7E4F9B;
+                                    border: none;
+                                    border-radius: 0.3rem;
+                                    color: white
+                                }
+                            }
+                        }
+                    }
+                    #next_sec{
+                        label{
+                            font-family: futura-medium;
+                            margin-top: 1rem;
+                        }
+                        p{
+                            font-family: futura-book;
+                        }
+                    }
+                }
+            }
+        }
+        .block-two{ 
+            width:69%;
+            height: fit-content;
+            margin-left: 1%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding:1rem;
+            .first-row-box{
+                width: 100%;
+                display: flex;
+                label{
+                    width: 70%;
+                    color:$text-dark-color;
+                    font-family: Futura Heavy font;
+                    font-size: 21px;
+                }
+                .row{
+                    width: 30%;
+                    img{
+                        width: 60%;
+                        margin-left: 40%;
+                    }
+                }
+            }
+            .sec-row-box{
+                width:100%;
+                margin-top: 3rem;
+                label{
+                    width: 70%;
+                    color:$text-dark-color;
+                    font-family: Futura Heavy font;
+                    font-size: 22px;
+                }
+                .sub-sec-row{
+                    width: 70%;
+                    margin-left: 15%;
+                    display: flex;
+                    margin-top: 2rem;
+                    .row{
+                        width:50%;
+                        label{
+                            font-size: 15px;
+                        }
+                        input{
+                            width: 80%;
+                            margin-left: 1rem;
+                            margin-top: 0.8rem;
+                            height: 35px;
+                            border-radius: 5px;
+                            outline: none;
+                            background: #F8F8F8;
+                            border: 1px solid #7070702C;
+                        }
+                    }
+                }
+                .align-item{
+                    text-align: right;
+                    display: flex;
+                    margin-left: 60%;
+                    width:40%;
+                    p{
+                        border:2px solid lightgray;
+                        margin-right: 20px;
+                        border-radius: 5px;
+                        padding: 5px 15px;
+                        width: 42%;
+                    }
+                    button{
+                        padding: 5px 15px;
+                        background-color: $background-strong-color;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    }
+                }
+                #label_heading{
+                    width: 100%;
+                    font-size: 20px;
+                    margin-top: 3rem;
+                }
+                .para{
+                    width: 90%;
+                    margin-left: 5%;
+                    margin-top: 1rem;
+                    font-family: futura-pt-demi;
+                    color: $text-dark-color;
+                }
+                .formula-area{
+                    width: 100%;
+                    img{
+                        width:50%;
+                    }
+                }
+                .table-sec{
+                    width: 100%;
+                    margin-top: 3rem;
+                    margin-bottom: 3rem;
+                    .table-sub-sec{
+                        width: 90%;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        .sub-sec-table{
+                            width: 100%;
+                            display: flex;
+                            background-color: #4F7B9B;
+                            #label1{
+                                width:30%;
+                                color:white;
+                                font-size: 18px;
+                                padding: 10px;
+                            }
+                            #label2{
+                                width:70%;
+                                color:white;
+                                font-size: 18px;
+                                padding: 10px;
+                            }
+                        }
+                        .sub-sec-table1{
+                            width: 100%;
+                            display: flex;
+                            background-color: #FAFDFF;
+                            #label1{
+                                width:30%;
+                                font-size: 18px;
+                                padding: 10px;
+                            }
+                            #label2{
+                                width:70%;
+                                font-size: 18px;
+                                padding: 10px;
+                                font-family: Futura Book font;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1279px){
+    .lv-ejection-body{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        display: flex;
+        .block-one{ 
+            width:30%;
+            .row{
+                width: 100%;
+                .box-one{
+                    width: 100%;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 20px;
+                    border-radius: 5px;
+                    label{
+                        color:$text-primary;
+                        font-family: Futura Medium;
+                    }
+                    .patient-addr-label{
+                        color: $text-secondary-light;
+                        font-size:0.8rem;
+                    }
+                    .patient-name-label{
+                        color:$text-secondary;
+                        font-size: 1.2rem;
+                        span{
+                            color:$text-secondary-light;
+                            font-size: 1rem;
+                        }
+                    }
+                    .detail-block-row{
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        .detail-col-one{
+                            width: 50%;
+                            margin-top: 1rem;
+                            margin-bottom: 1rem;
+                            .patient-name-label1{
+                                color:$text-secondary;
+                                font-size: 1.2rem;
+                                width: 50%;
+                                font-size: 0.8rem;
+                            }
+                            .patient-name-label2{
+                                color:$text-secondary-light;
+                                font-size: 1rem;
+                                width: 50%;
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                    .second-block-align{
+                        text-align: right;
+                        button{
+                            padding: 5px 10px;
+                            background-color: $text-primary;
+                            color: white;
+                            border: none;
+                            border-radius: 3px;
+                            margin-bottom: 5px;
+                            margin-right: 5px;
+                        }
+                    }
+                    .second-block-box{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        margin-bottom: 2%;
+                        width: 98%;
+                        margin-left: 1%;
+                        .background-green-area{
+                            width: 100%;
+                            background-color: #E0E8C6;
+                            padding:0.5rem;
+                            p{
+                                font-family: futura-pt-demi;
+                                color:$text-dark-color;
+                            }
+                        }
+                        .second-block-head{
+                            color:$text-red-color;
+                            font-family: Futura Medium;
+                            width: 96%;
+                            margin-left: 2%;
+                        }
+                        p{
+                            width: 96%;
+                            margin-left: 2%;
+                            color:$text-secondary-light;
+                            font-size: 0.8rem;
+                            margin-top: 0.5rem;
+                            font-family: Futura Book font;
+                        }
+                    }
+                }
+                .box-two{
+                    width: 100%;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 20px;
+                    margin-top: 2%;
+                    label{
+                        font-family: futura;
+                        font-size: 1rem;
+                        margin-bottom: 2rem;
+                    }
+                    #box1_sub{
+                        display: flex;
+                        margin-top: 0.2rem;
+                        label{
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 0.7rem;
+                            color: #838284;
+                            margin-bottom: 1rem;
+                        }
+                        #circle_right{
+                            color:#836198;
+                            font-size: 1.2rem;
+                        }
+                    }
+                    #background{
+                        display: grid;
+                        background-color: #F5FFFF;
+                        padding: 1rem;
+                        
+                        #being_{
+                            display: flex;
+                            #docimg{
+                                width: 115%;
+                            }
+                            div{
+                                width: 9rem;
+                            }
+                            #cardio_area{
+                                label{
+                                    font-family: futura-book;
+                                    font-weight: bold;
+                                    font-size: 1.1rem;
+                                }
+                                button{
+                                    padding: 0.5rem 1rem;
+                                    background-color: #7E4F9B;
+                                    border: none;
+                                    border-radius: 0.3rem;
+                                    color: white
+                                }
+                            }
+                        }
+                    }
+                    #next_sec{
+                        label{
+                            font-family: futura-medium;
+                            margin-top: 1rem;
+                        }
+                        p{
+                            font-family: futura-book;
+                        }
+                    }
+                }
+            }
+        }
+        .block-two{ 
+            width:69%;
+            margin-left: 1%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding:1rem;
+            .first-row-box{
+                width: 100%;
+                display: flex;
+                label{
+                    width: 70%;
+                    color:$text-dark-color;
+                    font-family: Futura Heavy font;
+                    font-size: 16px;
+                }
+                .row{
+                    width: 30%;
+                    img{
+                        width: 60%;
+                        margin-left: 40%;
+                    }
+                }
+            }
+            .sec-row-box{
+                width:100%;
+                margin-top: 3rem;
+                label{
+                    width: 70%;
+                    color:$text-dark-color;
+                    font-family: Futura Heavy font;
+                    font-size: 15px;
+                }
+                .sub-sec-row{
+                    width: 70%;
+                    margin-left: 15%;
+                    display: flex;
+                    margin-top: 2rem;
+                    .row{
+                        width:50%;
+                        label{
+                            font-size: 12px;
+                        }
+                        input{
+                            width: 80%;
+                            margin-left: 1rem;
+                            margin-top: 0.8rem;
+                            height: 35px;
+                            border-radius: 5px;
+                            outline: none;
+                            background: #F8F8F8;
+                            border: 1px solid #7070702C;
+                        }
+                    }
+                }
+                .align-item{
+                    text-align: right;
+                    display: flex;
+                    margin-left: 50%;
+                    width:50%;
+                    p{
+                        border:2px solid lightgray;
+                        margin-right: 20px;
+                        border-radius: 5px;
+                        padding: 5px 15px;
+                        width: 42%;
+                    }
+                    button{
+                        padding: 5px 15px;
+                        background-color: $background-strong-color;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    }
+                }
+                #label_heading{
+                    width: 100%;
+                    font-size: 17px;
+                    margin-top: 3rem;
+                }
+                .para{
+                    width: 90%;
+                    margin-left: 5%;
+                    margin-top: 1rem;
+                    font-family: futura-pt-demi;
+                    color: $text-dark-color;
+                    font-size: 15px;
+                }
+                .formula-area{
+                    width: 100%;
+                    img{
+                        width:50%;
+                    }
+                }
+                .table-sec{
+                    width: 100%;
+                    margin-top: 3rem;
+                    margin-bottom: 3rem;
+                    .table-sub-sec{
+                        width: 90%;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        .sub-sec-table{
+                            width: 100%;
+                            display: flex;
+                            background-color: #4F7B9B;
+                            #label1{
+                                width:30%;
+                                color:white;
+                                font-size: 18px;
+                                padding: 10px;
+                            }
+                            #label2{
+                                width:70%;
+                                color:white;
+                                font-size: 18px;
+                                padding: 10px;
+                            }
+                        }
+                        .sub-sec-table1{
+                            width: 100%;
+                            display: flex;
+                            background-color: #FAFDFF;
+                            #label1{
+                                width:30%;
+                                font-size: 18px;
+                                padding: 10px;
+                            }
+                            #label2{
+                                width:70%;
+                                font-size: 18px;
+                                padding: 10px;
+                                font-family: Futura Book font;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    .lv-ejection-body{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        display: flex;
+        .block-one{ 
+            width:30%;
+            .row{
+                width: 100%;
+                .box-one{
+                    width: 100%;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 20px;
+                    border-radius: 5px;
+                    label{
+                        color:$text-primary;
+                        font-family: Futura Medium;
+                    }
+                    .patient-addr-label{
+                        color: $text-secondary-light;
+                        font-size:0.8rem;
+                    }
+                    .patient-name-label{
+                        color:$text-secondary;
+                        font-size: 1.2rem;
+                        span{
+                            color:$text-secondary-light;
+                            font-size: 1rem;
+                        }
+                    }
+                    .detail-block-row{
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        .detail-col-one{
+                            width: 50%;
+                            margin-top: 1rem;
+                            margin-bottom: 1rem;
+                            .patient-name-label1{
+                                color:$text-secondary;
+                                font-size: 1.2rem;
+                                width: 50%;
+                                font-size: 0.8rem;
+                            }
+                            .patient-name-label2{
+                                color:$text-secondary-light;
+                                font-size: 1rem;
+                                width: 50%;
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                    .second-block-align{
+                        text-align: right;
+                        button{
+                            padding: 5px 10px;
+                            background-color: $text-primary;
+                            color: white;
+                            border: none;
+                            border-radius: 3px;
+                            margin-bottom: 5px;
+                            margin-right: 5px;
+                        }
+                    }
+                    .second-block-box{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        margin-bottom: 2%;
+                        width: 98%;
+                        margin-left: 1%;
+                        .background-green-area{
+                            width: 100%;
+                            background-color: #E0E8C6;
+                            padding:0.5rem;
+                            p{
+                                font-family: futura-pt-demi;
+                                color:$text-dark-color;
+                            }
+                        }
+                        .second-block-head{
+                            color:$text-red-color;
+                            font-family: Futura Medium;
+                            width: 96%;
+                            margin-left: 2%;
+                        }
+                        p{
+                            width: 96%;
+                            margin-left: 2%;
+                            color:$text-secondary-light;
+                            font-size: 0.8rem;
+                            margin-top: 0.5rem;
+                            font-family: Futura Book font;
+                        }
+                    }
+                }
+                .box-two{
+                    width: 100%;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 20px;
+                    margin-top: 2%;
+                    label{
+                        font-family: futura;
+                        font-size: 1rem;
+                        margin-bottom: 2rem;
+                    }
+                    #box1_sub{
+                        display: flex;
+                        margin-top: 0.2rem;
+                        label{
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 0.7rem;
+                            color: #838284;
+                            margin-bottom: 1rem;
+                        }
+                        #circle_right{
+                            color:#836198;
+                            font-size: 1.2rem;
+                        }
+                    }
+                    #background{
+                        display: grid;
+                        background-color: #F5FFFF;
+                        padding: 1rem;
+                        
+                        #being_{
+                            display: flex;
+                            #docimg{
+                                width: 115%;
+                            }
+                            div{
+                                width: 9rem;
+                            }
+                            #cardio_area{
+                                label{
+                                    font-family: futura-book;
+                                    font-weight: bold;
+                                    font-size: 1.1rem;
+                                }
+                                button{
+                                    padding: 0.5rem 1rem;
+                                    background-color: #7E4F9B;
+                                    border: none;
+                                    border-radius: 0.3rem;
+                                    color: white
+                                }
+                            }
+                        }
+                    }
+                    #next_sec{
+                        label{
+                            font-family: futura-medium;
+                            margin-top: 1rem;
+                        }
+                        p{
+                            font-family: futura-book;
+                        }
+                    }
+                }
+            }
+        }
+        .block-two{ 
+            width:69%;
+            height: fit-content;
+            margin-left: 1%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding:1rem;
+            .first-row-box{
+                width: 100%;
+                display: flex;
+                label{
+                    width: 70%;
+                    color:$text-dark-color;
+                    font-family: Futura Heavy font;
+                    font-size: 12px;
+                }
+                .row{
+                    width: 30%;
+                    img{
+                        width: 60%;
+                        margin-left: 40%;
+                    }
+                }
+            }
+            .sec-row-box{
+                width:100%;
+                margin-top: 3rem;
+                label{
+                    width: 70%;
+                    color:$text-dark-color;
+                    font-family: Futura Heavy font;
+                    font-size: 12px;
+                }
+                .sub-sec-row{
+                    width: 80%;
+                    margin-left: 15%;
+                    display: flex;
+                    margin-top: 2rem;
+                    .row{
+                        width:50%;
+                        label{
+                            font-size: 11px;
+                        }
+                        input{
+                            width: 80%;
+                            margin-left: 1rem;
+                            margin-top: 0.8rem;
+                            height: 35px;
+                            border-radius: 5px;
+                            outline: none;
+                            background: #F8F8F8;
+                            border: 1px solid #7070702C;
+                        }
+                    }
+                }
+                .align-item{
+                    text-align: right;
+                    display: flex;
+                    margin-left: 30%;
+                    width:70%;
+                    margin-top: 1rem;
+                    p{
+                        border:2px solid lightgray;
+                        margin-right: 20px;
+                        border-radius: 5px;
+                        padding: 5px 15px;
+                        width: 42%;
+                    }
+                    button{
+                        padding: 5px 15px;
+                        background-color: $background-strong-color;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    }
+                }
+                #label_heading{
+                    width: 100%;
+                    font-size: 13px;
+                    margin-top: 1rem;
+                }
+                .para{
+                    width: 90%;
+                    margin-left: 5%;
+                    margin-top: 1rem;
+                    font-family: futura-pt-demi;
+                    color: $text-dark-color;
+                    font-size: 11px;
+                }
+                .formula-area{
+                    width: 100%;
+                    img{
+                        width:50%;
+                    }
+                }
+                .table-sec{
+                    width: 100%;
+                    margin-top: 3rem;
+                    margin-bottom: 3rem;
+                    .table-sub-sec{
+                        width: 90%;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        .sub-sec-table{
+                            width: 100%;
+                            display: flex;
+                            background-color: #4F7B9B;
+                            #label1{
+                                width:30%;
+                                color:white;
+                                font-size: 15px;
+                                padding: 10px;
+                            }
+                            #label2{
+                                width:70%;
+                                color:white;
+                                font-size: 15px;
+                                padding: 10px;
+                            }
+                        }
+                        .sub-sec-table1{
+                            width: 100%;
+                            display: flex;
+                            background-color: #FAFDFF;
+                            #label1{
+                                width:30%;
+                                font-size: 15px;
+                                padding: 10px;
+                            }
+                            #label2{
+                                width:70%;
+                                font-size: 15px;
+                                padding: 10px;
+                                font-family: Futura Book font;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 767px){
+    .lv-ejection-body{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        display: grid;
+        margin-left: 3%;
+        .block-one{ 
+            width:100%;
+            .row{
+                width: 100%;
+                .box-one{
+                    width: 100%;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 20px;
+                    border-radius: 5px;
+                    label{
+                        color:$text-primary;
+                        font-family: Futura Medium;
+                    }
+                    .patient-addr-label{
+                        color: $text-secondary-light;
+                        font-size:0.8rem;
+                    }
+                    .patient-name-label{
+                        color:$text-secondary;
+                        font-size: 1.2rem;
+                        span{
+                            color:$text-secondary-light;
+                            font-size: 1rem;
+                        }
+                    }
+                    .detail-block-row{
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        .detail-col-one{
+                            width: 50%;
+                            margin-top: 1rem;
+                            margin-bottom: 1rem;
+                            .patient-name-label1{
+                                color:$text-secondary;
+                                font-size: 1.2rem;
+                                width: 50%;
+                                font-size: 0.8rem;
+                            }
+                            .patient-name-label2{
+                                color:$text-secondary-light;
+                                font-size: 1rem;
+                                width: 50%;
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                    .second-block-align{
+                        text-align: right;
+                        button{
+                            padding: 5px 10px;
+                            background-color: $text-primary;
+                            color: white;
+                            border: none;
+                            border-radius: 3px;
+                            margin-bottom: 5px;
+                            margin-right: 5px;
+                        }
+                    }
+                    .second-block-box{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        margin-bottom: 2%;
+                        width: 98%;
+                        margin-left: 1%;
+                        .background-green-area{
+                            width: 100%;
+                            background-color: #E0E8C6;
+                            padding:0.5rem;
+                            p{
+                                font-family: futura-pt-demi;
+                                color:$text-dark-color;
+                            }
+                        }
+                        .second-block-head{
+                            color:$text-red-color;
+                            font-family: Futura Medium;
+                            width: 96%;
+                            margin-left: 2%;
+                        }
+                        p{
+                            width: 96%;
+                            margin-left: 2%;
+                            color:$text-secondary-light;
+                            font-size: 0.8rem;
+                            margin-top: 0.5rem;
+                            font-family: Futura Book font;
+                        }
+                    }
+                }
+                .box-two{
+                    width: 100%;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    padding: 20px;
+                    margin-top: 2%;
+                    label{
+                        font-family: futura;
+                        font-size: 1rem;
+                        margin-bottom: 2rem;
+                    }
+                    #box1_sub{
+                        display: flex;
+                        margin-top: 0.2rem;
+                        label{
+                            width: 100%;
+                            font-weight: 300;
+                            font-size: 0.7rem;
+                            color: #838284;
+                            margin-bottom: 1rem;
+                        }
+                        #circle_right{
+                            color:#836198;
+                            font-size: 1.2rem;
+                        }
+                    }
+                    #background{
+                        display: grid;
+                        background-color: #F5FFFF;
+                        padding: 1rem;
+                        
+                        #being_{
+                            display: flex;
+                            #docimg{
+                                width: 115%;
+                            }
+                            div{
+                                width: 9rem;
+                            }
+                            #cardio_area{
+                                label{
+                                    font-family: futura-book;
+                                    font-weight: bold;
+                                    font-size: 1.1rem;
+                                }
+                                button{
+                                    padding: 0.5rem 1rem;
+                                    background-color: #7E4F9B;
+                                    border: none;
+                                    border-radius: 0.3rem;
+                                    color: white
+                                }
+                            }
+                        }
+                    }
+                    #next_sec{
+                        label{
+                            font-family: futura-medium;
+                            margin-top: 1rem;
+                        }
+                        p{
+                            font-family: futura-book;
+                        }
+                    }
+                }
+            }
+        }
+        .block-two{ 
+            width:100%;
+            margin-top: 2%;
+            margin-left: -3%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding:1rem;
+            .first-row-box{
+                width: 100%;
+                display: flex;
+                label{
+                    width: 70%;
+                    color:$text-dark-color;
+                    font-family: Futura Heavy font;
+                    font-size: 12px;
+                }
+                .row{
+                    width: 30%;
+                    img{
+                        width: 60%;
+                        margin-left: 40%;
+                    }
+                }
+            }
+            .sec-row-box{
+                width:100%;
+                margin-top: 3rem;
+                label{
+                    width: 70%;
+                    color:$text-dark-color;
+                    font-family: Futura Heavy font;
+                    font-size: 12px;
+                }
+                .sub-sec-row{
+                    width: 70%;
+                    margin-left: 15%;
+                    display: grid;
+                    margin-top: 1rem;
+                    .row{
+                        width:100%;
+                        label{
+                            font-size: 15px;
+                        }
+                        input{
+                            width: 100%;
+                            margin-left: 1rem;
+                            margin-top: 0.8rem;
+                            height: 35px;
+                            border-radius: 5px;
+                            outline: none;
+                            background: #F8F8F8;
+                            border: 1px solid #7070702C;
+                        }
+                    }
+                }
+                .align-item{
+                    text-align: right;
+                    display: grid;
+                    margin-left: 0%;
+                    margin-top: 1rem;
+                    width:100%;
+                    p{
+                        border:2px solid lightgray;
+                        margin-right: 20px;
+                        border-radius: 5px;
+                        padding: 5px 15px;
+                        width: 50%;
+                    }
+                    button{
+                        padding: 5px 15px;
+                        background-color: $background-strong-color;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    }
+                }
+                #label_heading{
+                    width: 100%;
+                    font-size: 15px;
+                    margin-top: 3rem;
+                }
+                .para{
+                    width: 90%;
+                    margin-left: 5%;
+                    margin-top: 1rem;
+                    font-family: futura-pt-demi;
+                    color: $text-dark-color;
+                    font-size: 12px;
+                }
+                .formula-area{
+                    width: 100%;
+                    img{
+                        width:100%;
+                    }
+                }
+                .table-sec{
+                    width: 100%;
+                    margin-top: 3rem;
+                    margin-bottom: 3rem;
+                    .table-sub-sec{
+                        width: 90%;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        .sub-sec-table{
+                            width: 100%;
+                            display: flex;
+                            background-color: #4F7B9B;
+                            #label1{
+                                width:30%;
+                                color:white;
+                                font-size: 12px;
+                                padding: 10px;
+                            }
+                            #label2{
+                                width:70%;
+                                color:white;
+                                font-size: 12px;
+                                padding: 10px;
+                            }
+                        }
+                        .sub-sec-table1{
+                            width: 100%;
+                            display: flex;
+                            background-color: #FAFDFF;
+                            #label1{
+                                width:30%;
+                                font-size: 12px;
+                                padding: 10px;
+                            }
+                            #label2{
+                                width:70%;
+                                font-size: 12px;
+                                padding: 10px;
+                                font-family: Futura Book font;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

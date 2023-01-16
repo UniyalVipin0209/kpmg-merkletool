@@ -1,0 +1,33 @@
+
+//Standard Font Size
+
+$font_size_small:0.7rem;
+$font_size_big:0.8rem;
+
+//Standard Font Style
+@font-face {
+    font-family:"Futura Book font";
+    src: url("../../Assets/Font/futura/Futura\ Book\ font.ttf") format("truetype");
+  }
+  @font-face {
+    font-family:"Futura Medium";
+    src: url("../../Assets/Font/futura/futura\ medium\ bt.ttf") format("truetype");
+  }
+@font-face {
+  font-family: "Futura Heavy font";
+  src: url("../../Assets/Font/futura/Futura\ Heavy\ font.ttf")format("truetype");
+}
+@font-face {
+    font-family:"Futura Heavy Italic font";
+    src: url("../../Assets/Font/futura/Futura\ Heavy\ Italic\ font.ttf") format("truetype");
+  }
+@font-face {
+    font-family:"futura-pt-demi";
+    src: url("../../Assets/Font/futura/futura-pt-demi.otf") format("truetype");
+  }
+@font-face {
+    font-family:"Futura Light";
+    src: url("../../Assets/Font/futura/Futura-Light.ttf") format("truetype");
+  }
+
+  

@@ -1,0 +1,579 @@
+@import '../abstract/colors';
+@import '../abstract/fonts';
+@import '../abstract//mixin';
+@import '../abstract//variables'; 
+
+input{
+    outline: none;
+}
+@media only screen and (max-width: 450px){ 
+    .login-page{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 1200px){
+
+    .login-page{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        .resend-text{
+            text-align: right;
+            font-size: 12px;
+            margin-top: 2rem;
+            color: $text-primary;
+        }
+        .lg-page-banner{
+            width: 67%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            background-color: #17265e;
+            // background-image: url('../../Assets/Group\ 85.svg');
+            .banner{
+                width: 80%;
+                height: 75%;
+                color:$text-primary;
+                font-size: 1.3rem;
+                // font-family: futura-pt-demi;
+                font-family: 'Open Sans', sans-serif;
+                .banner-img{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        margin-top: 4rem;
+                        width:550px;
+                    }
+                }
+            }
+        }
+        .lg-page-form{
+            width:35%;
+            height: 100%;
+            box-shadow: 0 3px 6px #00000029 ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background-color: #17265e;
+            .as-icon{
+                width: 2.2rem;
+                position: absolute;
+                right:4rem;
+                top:2rem;
+            }
+            .lg-pg-form-box{
+                width: 83%;
+                height: 80%;
+                .form-title{
+                    color:#fff;//$text-secondary;
+                    // font-family: Futura Heavy font;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                }
+                .form-subtitle{
+                    margin-left:2rem;
+                    font-size: 0.8rem;
+                    color:$text-secondary-light;
+                    // font-family: Futura Book font;
+                }
+                
+                .form-medium-box{
+                    width: 90%;
+                    .form-field{
+                        .flex-data{
+                            display: flex;
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                            width:90%;
+                            height: 45px;
+                            input{
+                                width:90%;
+                                border: none;
+                                height: 30px;
+                            }
+                            .pen{
+                                margin-top: 0.8rem;
+                                color:$text-primary
+                            }
+                        }
+                        .input-pass{
+                            div{
+                                display:flex;
+                                width:90%;
+                                border:1px solid lightgray;
+                                border-radius: 5px;
+                                input{
+                                    border: none;
+                                    width:87%;
+                                    outline: none;
+                                }
+                                .eyebutton{
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                        label{
+                            color:$text-secondary-medium;
+                            font-size: 0.8rem;
+                            font-family: futura-pt-demi;
+                        }
+                        input{
+                            height: 1.9rem;
+                            width:90%;
+                            font-size: 0.8rem;
+                            outline: none;
+                        }
+                    }
+                }
+                .form-signIn{
+                    background-color: $background-strong-color;
+                    width: 100%;
+                    color:#fff;
+                    font-size: 0.9rem;
+                    font-family: Futura Heavy font;
+                }
+                .form-signIn-google{
+                    background-color: $background-white-simple;
+                    width: 100%;
+                    color:$text-secondary-medium;
+                    font-size: 0.9rem;
+                    font-family: Futura Heavy font;
+                }
+                .form-g-signIn{
+                    // background-color:;
+                    border: 1px solid #7070701D;
+                    width: 100%;
+                    color:#544E58;
+                    font-size: 0.9rem;
+                    font-family: futura-pt-demi;
+                }
+                .remember-me{
+                    color:#544E58;
+                    font-size: 0.8rem;
+                    font-family: futura-pt-demi;
+
+                }
+
+                .acc-generator{
+                    color:#7E4F9B;
+                    font-size: 0.8rem;
+                    margin-top: 0.5rem;
+                    font-family: Futura Book font;
+                    cursor: pointer;
+                }
+                
+            }
+        }
+    }
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+    .login-page{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        .lg-page-banner{
+            width: 67%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('../../Assets/Group\ 85.svg');
+            .banner{
+                width: 80%;
+                height: 75%;
+                color:$text-primary;
+                font-size: 1.3rem;
+                font-family: futura-pt-demi;
+                .banner-img{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        margin-top: 4rem;
+                        width:450px;
+                    }
+                }
+            }
+        }
+        .lg-page-form{
+            width:35%;
+            height: 100%;
+            box-shadow: 0 3px 6px #00000029 ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            .as-icon{
+                width: 2.2rem;
+                position: absolute;
+                right:4rem;
+                top:2rem;
+            }
+                .lg-pg-form-box{
+                    width: 83%;
+                    height: 80%;
+                    .form-title{
+                        color:$text-secondary;
+                        font-family: Futura Heavy font;
+                        font-size: 1rem;
+                    }
+                    .form-subtitle{
+                        margin-left:2rem;
+                        font-size: 0.7rem;
+                        color:$text-secondary-light;
+                        font-family: Futura Book font;
+                    }
+                    
+                    .form-medium-box{
+                        width: 90%;
+                        .form-field{
+                            .flex-data{
+                                display: flex;
+                                border: 1px solid lightgray;
+                                border-radius: 5px;
+                                width:80%;
+                                input{
+                                    margin-top: 0.3rem;
+                                    width:90%;
+                                    font-size: 0.8rem;
+                                    border: none;
+                                }
+                                .pen{
+                                    margin-top: 0.8rem;
+                                }
+                            }
+                            label{
+                            color:$text-secondary-medium;
+                            font-size: 1rem;
+                            font-family: futura-pt-demi;
+                            }
+                            input{
+                                height: 2rem;
+                                width:80%;
+                            }
+                        }
+                    }
+                    .form-signIn{
+                        background-color: $background-strong-color;
+                        width: 100%;
+                        color:#fff;
+                        font-size: 1rem;
+                        font-family: Futura Heavy font;
+                    }
+                    .form-signIn-google{
+                        background-color: $background-white-simple;
+                        width: 100%;
+                        color:$text-secondary-medium;
+                        font-size: 1rem;
+                        font-family: Futura Heavy font;
+                    }
+                    .form-g-signIn{
+                        // background-color:;
+                        border: 1px solid #7070701D;
+                        width: 100%;
+                        color:#544E58;
+                        font-size: 0.9rem;
+                        font-family: futura-pt-demi;
+                    }
+                    .remember-me{
+                        color:#544E58;
+                        font-size: 0.8rem;
+                        font-family: futura-pt-demi;
+
+                    }
+
+                    .acc-generator{
+                        color:#7E4F9B;
+                        font-size: 0.8rem;
+                        margin-top: 1.5rem;
+                        font-family: Futura Book font;
+                        cursor: pointer;
+                    }
+                    
+                }
+            
+        }
+    }
+}
+@media only screen and (min-width: 391px) and (max-width: 959px) {
+
+    .login-page{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        .lg-page-banner{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('../../Assets/Group\ 85.svg');
+            .banner{
+                width: 80%;
+                height: 75%;
+                color:$text-primary;
+                font-size: 1.3rem;
+                font-family: futura-pt-demi;
+                .banner-img{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        margin-top: 4rem;
+                        width:90%;
+                    }
+                }
+            }
+        }
+        .lg-page-form{
+            width:100%;
+            height: 100%;
+            box-shadow: none ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            margin-top: 3rem;
+            .as-icon{
+                width: 2.2rem;
+                position: absolute;
+                right:4rem;
+                top:2rem;
+            }
+                .lg-pg-form-box{
+                    width: 83%;
+                    height: 80%;
+                    .form-title{
+                        color:$text-secondary;
+                        font-family: Futura Heavy font;
+                        font-size: 1rem;
+                    }
+                    .form-subtitle{
+                        margin-left:2rem;
+                        font-size: 0.8rem;
+                        color:$text-secondary-light;
+                        font-family: Futura Book font;
+                    }
+                    
+                    .form-medium-box{
+                        width: 90%;
+                        .form-field{
+                            .flex-data{
+                                display: flex;
+                                border: 1px solid lightgray;
+                                border-radius: 5px;
+                                width:80%;
+                                input{
+                                    margin-top: 0.3rem;
+                                    width:90%;
+                                    font-size: 0.8rem;
+                                    border: none;
+                                }
+                                .pen{
+                                    margin-top: 0.8rem;
+                                }
+                            }
+                            label{
+                            color:$text-secondary-medium;
+                            font-size: 1rem;
+                            font-family: futura-pt-demi;
+                            }
+                            input{
+                                height: 2rem;
+                                width:100%;
+                            }
+                        }
+                    }
+                    .form-signIn{
+                        background-color: $background-strong-color;
+                        width: 100%;
+                        color:#fff;
+                        font-size: 0.8rem;
+                        font-family: Futura Heavy font;
+                    }
+                    .form-signIn-google{
+                        background-color: $background-white-simple;
+                        width: 100%;
+                        color:$text-secondary-medium;
+                        font-size: 0.8rem;
+                        font-family: Futura Heavy font;
+                        margin-bottom: 3rem;
+                    }
+                    .form-g-signIn{
+                        // background-color:;
+                        border: 1px solid #7070701D;
+                        width: 100%;
+                        color:#544E58;
+                        font-size: 0.9rem;
+                        font-family: futura-pt-demi;
+                    }
+                    .remember-me{
+                        color:#544E58;
+                        font-size: 0.8rem;
+                        font-family: futura-pt-demi;
+
+                    }
+
+                    .acc-generator{
+                        color:#7E4F9B;
+                        font-size: 0.8rem;
+                        margin-top: 1.5rem;
+                        font-family: Futura Book font;
+                        cursor: pointer;
+                    }
+                    
+                }
+            
+        }
+    }
+}
+@media only screen and (max-width:390px){
+
+    .login-page{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        .lg-page-banner{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('../../Assets/Group\ 85.svg');
+            .banner{
+                width: 80%;
+                height: 75%;
+                color:$text-primary;
+                font-size: 1.3rem;
+                font-family: futura-pt-demi;
+                .banner-img{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        margin-top: 4rem;
+                        width:80%;
+                    }
+                }
+            }
+        }
+        .lg-page-form{
+            width:100%;
+            padding: 20px;        
+            height: 100%;
+            margin-top: 3rem;
+            box-shadow: 0 0px 0px #00000029 ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            .as-icon{
+                width: 2.2rem;
+                position: absolute;
+                right:4rem;
+                top:2rem;
+            }
+                .lg-pg-form-box{
+                    width: 100%;
+                    height: 80%;
+                    .form-title{
+                        color:$text-secondary;
+                        font-family: Futura Heavy font;
+                        font-size: 1.2rem;
+                        margin-top: 28px;
+                    }
+                    .form-subtitle{ 
+                        margin-left:2rem;
+                        font-size: 1rem;
+                        color:$text-secondary-light;
+                        font-family: Futura Book font;
+                    }
+                    
+                    .form-medium-box{
+                        width: 100%;
+                        .form-field{
+
+                            width: 100%;
+                            .flex-data{
+                                display: flex;
+                                border: 1px solid lightgray;
+                                border-radius: 5px;
+                                width:100%;
+                                input{
+                                    margin-top: 0.3rem;
+                                    width:90%;
+                                    font-size: 0.8rem;
+                                    border: none;
+                                }
+                                .pen{
+                                    margin-top: 0.8rem;
+                                }
+                            }
+                            .input-pass{
+                                height: 2rem;
+                                width:100%;
+                                display: flex;
+                                input{
+                                    height: 2rem;
+                                    width:100%;
+                                }
+                            }
+                            label{
+                            color:$text-secondary-medium;
+                            font-size: 1rem;
+                            font-family: futura-pt-demi;
+                            }
+                            input{
+                                height: 2rem;
+                                width:100%;
+                            }
+                        }
+                    }
+                    .form-signIn{
+                        background-color: $background-strong-color;
+                        width: 100%;
+                        color:#fff;
+                        font-size: 1rem;
+                        font-family: Futura Heavy font;
+                        margin-bottom: 1rem;
+                    }
+                    .form-signIn-google{
+                        background-color: $background-white-simple;
+                        width: 100%;
+                        color:$text-secondary-medium;
+                        font-size: 1rem;
+                        font-family: Futura Heavy font;
+                    }
+                    .form-g-signIn{
+                        // background-color:;
+                        border: 1px solid #7070701D;
+                        width: 100%;
+                        color:#544E58;
+                        font-size: 0.9rem;
+                        font-family: futura-pt-demi;
+                    }
+                    .remember-me{
+                        color:#544E58;
+                        font-size: 1rem;
+                        font-family: futura-pt-demi;
+
+                    }
+
+                    .acc-generator{
+                        color:#7E4F9B;
+                        font-size: 1rem;
+                        margin-top: 0.5rem;
+                        font-family: Futura Book font;
+                        cursor: pointer;
+                    }
+                    
+                }
+            
+        }
+    }
+}

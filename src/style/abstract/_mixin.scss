@@ -1,0 +1,29 @@
+.width100{
+    width: 100%;
+}
+.height100{
+    height: 100%;
+}
+@mixin centerContentBoxWithoutColumn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+@mixin centerContentBox {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+@mixin centerContentBoxHorizontal{
+    display:flex;
+    justify-content:center;
+}
+
+@mixin centerContentBoxVertical{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
